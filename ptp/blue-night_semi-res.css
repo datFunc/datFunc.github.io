@@ -271,8 +271,8 @@ textarea {
     font-style: normal;
     font-weight: 400;
     src: local("Bebas Neue Regular"), local("BebasNeue-Regular"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/bebas-neue/bebas-neue-v1-latin-ext_latin-regular.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/bebas-neue/bebas-neue-v1-latin-ext_latin-regular.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/bebas-neue/bebas-neue-v1-latin-ext_latin-regular.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/bebas-neue/bebas-neue-v1-latin-ext_latin-regular.woff") format("woff");
 }
 
 @font-face {
@@ -280,8 +280,8 @@ textarea {
     font-style: normal;
     font-weight: 300;
     src: local("Open Sans Light"), local("OpenSans-Light"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff") format("woff");
 }
 
 @font-face {
@@ -290,7 +290,7 @@ textarea {
     font-weight: 300;
     src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"),
         url("https://github.com/datFunc/ptp__blue-night-theme/blob/master/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300italic.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300italic.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300italic.woff") format("woff");
 }
 
 @font-face {
@@ -298,8 +298,8 @@ textarea {
     font-style: normal;
     font-weight: 400;
     src: local("Open Sans Regular"), local("OpenSans-Regular"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
@@ -307,8 +307,8 @@ textarea {
     font-style: italic;
     font-weight: 400;
     src: local("Open Sans Italic"), local("OpenSans-Italic"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-italic.woff") format("woff");
 }
 
 @font-face {
@@ -316,8 +316,8 @@ textarea {
     font-style: normal;
     font-weight: 600;
     src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff") format("woff");
 }
 
 @font-face {
@@ -325,8 +325,8 @@ textarea {
     font-style: italic;
     font-weight: 600;
     src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600italic.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600italic.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600italic.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600italic.woff") format("woff");
 }
 
 @font-face {
@@ -334,8 +334,8 @@ textarea {
     font-style: normal;
     font-weight: 700;
     src: local("Open Sans Bold"), local("OpenSans-Bold"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
@@ -343,8 +343,8 @@ textarea {
     font-style: italic;
     font-weight: 700;
     src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700italic.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700italic.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700italic.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700italic.woff") format("woff");
 }
 
 @font-face {
@@ -352,8 +352,8 @@ textarea {
     font-style: normal;
     font-weight: 800;
     src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800.woff") format("woff");
 }
 
 @font-face {
@@ -361,8 +361,8 @@ textarea {
     font-style: italic;
     font-weight: 800;
     src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800italic.woff2") format("woff2"),
-        url("https://datfunc.github.io/ptp/blue_night/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800italic.woff") format("woff");
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800italic.woff2") format("woff2"),
+        url("https://datfunc.github.io/ptp/assets/fonts/open-sans/open-sans-v17-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-800italic.woff") format("woff");
 }
 
 body {
@@ -588,7 +588,7 @@ html.busy-cursor * {
 }
 
 body {
-    background: #191d2a url("https://datfunc.github.io/ptp/blue_night/assets/imgs/body_bg.svg");
+    background: #191d2a url("https://datfunc.github.io/ptp/assets/imgs/body_bg.svg");
     margin: 0 auto;
 }
 
@@ -815,11 +815,11 @@ body.lightbox__scroll-lock {
     bottom: 0;
     margin: auto;
     pointer-events: none;
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/play-trailer.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/play-trailer.svg");
 }
 
 .light-youtube-embed:hover::after {
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/yt_icon_rgb.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/yt_icon_rgb.svg");
     max-width: 80px;
 }
 
@@ -835,7 +835,7 @@ body.lightbox__scroll-lock {
 }
 
 #simplemodal-container a.modalCloseImg {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/close.svg") no-repeat center center !important;
+    background: url("https://datfunc.github.io/ptp/assets/icons/close.svg") no-repeat center center !important;
     background-size: 26px !important;
     max-width: 26px;
     display: inline;
@@ -851,7 +851,7 @@ a[title="Close"] {
     height: 26px !important;
     box-sizing: border-box !important;
     padding-left: 26px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/close.svg") no-repeat center center !important;
+    background: url("https://datfunc.github.io/ptp/assets/icons/close.svg") no-repeat center center !important;
     background-size: contain !important;
 }
 
@@ -943,83 +943,83 @@ a[title="Close"]:hover {
 
 /* BBCode Icons */
 .js-bbcode-toolbar__bold-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/bold_alt.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/bold_alt.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__italic-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/italic.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/italic.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__underline-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/underline.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/underline.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__strikethrough-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/strikethrough.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/strikethrough.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__link-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/link.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/link.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__image-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/image.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/image.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__hide-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/hide.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/hide.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__spoiler-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/spoiler.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/spoiler.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__quote-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/quote.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/quote.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__size-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/font-size.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/font-size.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__color-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/color.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/color.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__youtube-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/vid-ut.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/vid-ut.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__mediainfo-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/mediainfo.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/mediainfo.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__align-center-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/align.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/align.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__align-right-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/align-right.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/align-right.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__code-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/code.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/code.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__list-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/bullet-list.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/bullet-list.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__emoticon-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/emojis.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/emojis.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__comparison-button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/compare.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/compare.svg") no-repeat;
 }
 
 a[title="BBCode help"] .bbcode-toolbar__button {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/toolbar/question.svg") no-repeat;
+    background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/question.svg") no-repeat;
 }
 
 .js-bbcode-toolbar__align-center-button,
@@ -1124,131 +1124,131 @@ img[src*="smileys/wub.gif"] {
 }
 
 img[src*="smileys/smile.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/smile.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/smile.svg") no-repeat center center;
 }
 
 img[src*="smileys/sad.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/sad.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/sad.svg") no-repeat center center;
 }
 
 img[src*="smileys/biggrin.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/big-grin.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/big-grin.svg") no-repeat center center;
 }
 
 img[src*="smileys/ohshit.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/oh-shit.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/oh-shit.svg") no-repeat center center;
 }
 
 img[src*="smileys/tongue.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/tongue.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/tongue.svg") no-repeat center center;
 }
 
 img[src*="smileys/blank.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/blank-straight-face.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/blank-straight-face.svg") no-repeat center center;
 }
 
 img[src*="smileys/angry.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/angry.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/angry.svg") no-repeat center center;
 }
 
 img[src*="smileys/blush.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/blush.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/blush.svg") no-repeat center center;
 }
 
 img[src*="smileys/cool.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/cool.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/cool.svg") no-repeat center center;
 }
 
 img[src*="smileys/creepy.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/creepy.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/creepy.svg") no-repeat center center;
 }
 
 img[src*="smileys/crying.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/crying.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/crying.svg") no-repeat center center;
 }
 
 img[src*="smileys/eyesright.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/eyes-right.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/eyes-right.svg") no-repeat center center;
 }
 
 img[src*="smileys/frown.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/frown.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/frown.svg") no-repeat center center;
 }
 
 img[src*="smileys/hmm.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/hmm.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/hmm.svg") no-repeat center center;
 }
 
 img[src*="smileys/laughing.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/laughing.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/laughing.svg") no-repeat center center;
 }
 
 img[src*="smileys/ninja.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/ninja.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/ninja.svg") no-repeat center center;
 }
 
 img[src*="smileys/no.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/no.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/no.svg") no-repeat center center;
 }
 
 img[src*="smileys/nod.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/nod.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/nod.svg") no-repeat center center;
 }
 
 img[src*="smileys/ohnoes.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/oh-noes.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/oh-noes.svg") no-repeat center center;
 }
 
 img[src*="smileys/omg.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/omg.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/omg.svg") no-repeat center center;
 }
 
 img[src*="smileys/shifty.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/shifty.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/shifty.svg") no-repeat center center;
 }
 
 img[src*="smileys/sick.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/sick.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/sick.svg") no-repeat center center;
 }
 
 img[src*="smileys/wink.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/wink.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/wink.svg") no-repeat center center;
 }
 
 img[src*="smileys/worried.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/worried.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/worried.svg") no-repeat center center;
 }
 
 img[src*="smileys/wtf.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/wtf.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/wtf.svg") no-repeat center center;
 }
 
 img[src*="smileys/wub.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/wub.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/wub.svg") no-repeat center center;
 }
 
 img[src*="smileys/paddle.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/paddle-alt.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/paddle-alt.svg") no-repeat center center;
 }
 
 img[src*="smileys/wave.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/wave-hug.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/wave-hug.svg") no-repeat center center;
 }
 
 img[src*="smileys/heart.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/heart.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/heart.svg") no-repeat center center;
 }
 
 img[src*="smileys/thanks.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/thanks.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/thanks.svg") no-repeat center center;
 }
 
 img[src*="smileys/crom.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/crom-thanks.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/crom-thanks.svg") no-repeat center center;
 }
 
 img[src*="smileys/sorry.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/emojis/sorry.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/emojis/sorry.svg") no-repeat center center;
 }
 
 /* Forum Post Heading Icons */
@@ -1262,26 +1262,26 @@ img[src*="static/common/symbols/badge_gpchecker.png"] {
 }
 
 img[src="static/common/symbols/donor.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/donor.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/donor.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/miner.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/miner-alt.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/miner-alt.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/badge_checker.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/badge-checker.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/badge-checker.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/badge_gpchecker.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/badge_gpchecker.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/badge_gpchecker.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/filmclub.png"] {
     width: 20px;
     height: 20px;
     padding-left: 20px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/film-club-icon.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/film-club-icon.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/encoder.png"],
@@ -1295,20 +1295,20 @@ img[src*="static/common/symbols/warned.png"] {
 }
 
 img[src="static/common/symbols/encoder.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/encoder.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/encoder.svg") no-repeat center center;
 }
 
 img[src*="static/common/quality.gif"],
 img[src*="static/common/symbols/encoder_gp.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/gold-encode-checker.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/gold-encode-checker.svg") no-repeat center center;
 }
 
 img[src*="static/common/symbols/disabled.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/banned.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/banned.svg") no-repeat center center;
 }
 
 img[src*="static/common/symbols/warned.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-sticky-unread.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-sticky-unread.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/donor.png"],
@@ -1334,34 +1334,34 @@ img[src*="static/common/symbols/warned.png"] {
     color: rgba(255, 255, 255, 0);
     width: 12px;
     height: 12px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/gold-encode-checker.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/gold-encode-checker.svg") no-repeat center center;
     background-size: 12px;
 }
 
 /* Rank Icons */
 img[src="static/common/symbols/Rank1.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-1.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-1.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank2.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-2.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-2.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank3.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-3.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-3.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank4.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-4.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-4.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank5.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-5.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-5.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank6.png"],
 img[src*="static/common/symbols/Rank6.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rank-6.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rank-6.svg") no-repeat center center;
 }
 
 img[src="static/common/symbols/Rank1.png"],
@@ -1396,11 +1396,11 @@ img[src*="static/common/caticons/movies.png"] {
 }
 
 img[src*="static/common/caticons/tv.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/tv-icon.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/tv-icon.svg") no-repeat center center;
 }
 
 img[src*="static/common/caticons/movies.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/post-topic-unread.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/post-topic-unread.svg") no-repeat center center;
 }
 
 .staff-toolbar {
@@ -1763,6 +1763,22 @@ textarea:-ms-input-placeholder {
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
+    color: #586278;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #586278;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #586278;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #586278;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     color: #586278;
 }
 
@@ -2151,6 +2167,10 @@ th {
 #top10 .table tr th,
 #top10 .table tr td {
     text-align: left !important;
+}
+
+#top10 h2 {
+    margin-left: 2rem;
 }
 
 #forums .form__input tr[style="vertical-align: top;"] {
@@ -2573,7 +2593,7 @@ th {
     position: absolute;
     right: 5px;
     top: 5px;
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/seen.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/seen.svg");
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -2610,7 +2630,7 @@ th {
     position: absolute;
     right: 3px;
     top: 3px;
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/seen.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/seen.svg");
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -2743,14 +2763,14 @@ th {
     text-align: center;
 }
 
-cover-movie-list__movie__title-row,
+.cover-movie-list__movie__title-row,
 .cover-movie-list__movie__rating-and-tags {
     display: inline-block !important;
     padding-bottom: 0 !important;
     margin: 0 !important;
 }
 
-cover-movie-list__movie__title-row {
+.cover-movie-list__movie__title-row {
     margin-bottom: -20px !important;
 }
 
@@ -2842,7 +2862,7 @@ cover-movie-list__movie__title-row {
     position: absolute;
     right: -20px;
     top: 5px;
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/seen.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/seen.svg");
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -2883,7 +2903,7 @@ cover-movie-list__movie__title-row {
     position: absolute;
     right: 3px;
     top: 3px;
-    background-image: url("https://datfunc.github.io/ptp/blue_night/assets/icons/seen.svg");
+    background-image: url("https://datfunc.github.io/ptp/assets/icons/seen.svg");
     background-size: cover;
     width: 20px;
     height: 20px;
@@ -2958,7 +2978,7 @@ cover-movie-list__movie__title-row {
     height: 42px;
     box-sizing: border-box;
     padding-left: 42px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/imdb-logo.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/imdb-logo.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -2972,12 +2992,12 @@ cover-movie-list__movie__title-row {
 }
 
 .huge-movie-list__movie__ratings img[src*="static/common/ratings/x2_metacritic.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/metacritic-logo.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/metacritic-logo.svg") no-repeat center center;
     background-size: contain;
 }
 
 .huge-movie-list__movie__ratings img[src*="static/common/ratings/x3_tomatoes.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rt_alt.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rt_alt.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -2987,7 +3007,7 @@ img[src="static/common/ratings/x4_ptp.png"] {
     height: 28px !important;
     box-sizing: border-box;
     padding-left: 28px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/popcorn-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/popcorn-colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -3062,7 +3082,7 @@ img[src="static/common/ratings/x4_ptp.png"] {
 /* Torrents table icons */
 #browse_settings,
 img[src="static/common/symbols/settings.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/settings.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/settings.svg") no-repeat center center;
     transition: all 2s ease-in-out;
 }
 
@@ -3075,19 +3095,19 @@ img[src="static/common/symbols/settings.png"]:hover {
 
 img[title="Time"],
 img[src="static/common/time.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/time.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/time.svg") no-repeat center center;
 }
 
 img[title="Snatches"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/snatched.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/snatched.svg") no-repeat center center;
 }
 
 img[title="Seeders"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-up-white.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-up-white.svg") no-repeat center center;
 }
 
 img[title="Leechers"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-down-white.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-down-white.svg") no-repeat center center;
 }
 
 #browse_settings,
@@ -3123,7 +3143,7 @@ img[src="static/common/symbols/uploader.png"] {
     height: 12px;
     box-sizing: border-box;
     padding-left: 12px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-up.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-up.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -3302,7 +3322,7 @@ img[src="static/common/symbols/uploader.png"] {
     height: 50px;
     box-sizing: border-box;
     padding-left: 50px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/play-trailer.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/play-trailer.svg") no-repeat center center;
     background-size: contain;
     opacity: 0.75;
     transition: all 0.3s;
@@ -3385,12 +3405,12 @@ img[src*="static/common/x.png"] {
 
 .torrent_table img[src="static/common/check.png"],
 img[src*="static/common/check.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/badge-checker.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/badge-checker.svg") no-repeat center center;
 }
 
 .torrent_table img[src="static/common/x.png"],
 img[src*="static/common/x.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/not-approved_alt.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/not-approved_alt.svg") no-repeat center center;
     margin-right: 1px;
 }
 
@@ -3399,7 +3419,7 @@ img[src="static/common/Poppy1.png"] {
     height: 70px;
     box-sizing: border-box;
     padding-left: 70px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/poppy.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/poppy.svg") no-repeat center center;
     background-size: contain;
     margin-right: 10px;
 }
@@ -3415,7 +3435,7 @@ img[src="static/common/Poppy1.png"] {
     height: 16px !important;
     box-sizing: border-box;
     padding-left: 20px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/popcorn-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/popcorn-colored.svg") no-repeat center center;
     background-size: contain;
     margin-right: 0.2rem;
 }
@@ -3455,7 +3475,7 @@ span.spoiler-show * {
 }
 
 #movie-ratings-table #imdb-title-link img {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/imdb-logo.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/imdb-logo.svg") no-repeat center center;
     width: 64px !important;
     height: 64px !important;
 }
@@ -3469,16 +3489,16 @@ span.spoiler-show * {
 }
 
 #movie-ratings-table img[src="static/common/ratings/x2_metacritic.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/metacritic-logo.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/metacritic-logo.svg") no-repeat center center;
 }
 
 #movie-ratings-table img[src="static/common/ratings/x4_ptp.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/popcorn-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/popcorn-colored.svg") no-repeat center center;
 }
 
 #movie-ratings-table img[src="static/common/ratings/x3_tomatoes.png"],
 img[title="Rotten Tomatoes"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/rt_alt.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/rt_alt.svg") no-repeat center center;
 }
 
 #movie-ratings-table #imdb-title-link img,
@@ -3523,7 +3543,7 @@ img[title="Rotten Tomatoes"] {
     margin: 0;
     padding: 0;
     list-style: none;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-rating.svg");
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-rating.svg");
     background-size: 17px;
     background-position: left center;
     background-repeat: repeat-x;
@@ -3566,7 +3586,7 @@ img[title="Rotten Tomatoes"] {
 
 .star-rating__current-user {
     height: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-rating-user.svg");
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-rating-user.svg");
     background-size: 17px;
     background-position: left center;
     background-repeat: repeat-x;
@@ -3575,7 +3595,7 @@ img[title="Rotten Tomatoes"] {
 
 .star-rating__site {
     height: 17px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-rating-site.svg");
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-rating-site.svg");
     background-size: 17px;
     background-position: left center;
     background-repeat: repeat-x;
@@ -3593,14 +3613,14 @@ img[title="Rotten Tomatoes"] {
 }
 
 .star-rating--big {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-rating-big.svg");
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-rating-big.svg");
     background-size: 30px;
     background-position: left center;
     background-repeat: repeat-x;
 }
 
 .star-rating__current-user--big {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-rating-user-big.svg");
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-rating-user-big.svg");
     background-size: 30px;
     background-position: left center;
     background-repeat: repeat-x;
@@ -3707,171 +3727,171 @@ img[src="static/common/flags/vietnam.gif"] {
 }
 
 img[src="static/common/flags/none.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/no-subs.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/no-subs.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/usa.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/usa.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/usa.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/usa_f.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/usa_f.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/usa_f.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/usa_i.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/usa_i.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/usa_i.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/spain.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/spain.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/spain.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/france.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/france.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/france.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/arabic.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/uae.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/uae.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/pt_br.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/brazil.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/brazil.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/bulgaria.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/bulgaria.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/bulgaria.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/china.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/china.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/china.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/croatia.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/croatia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/croatia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/czech.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/czech-republic.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/czech-republic.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/denmark.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/denmark.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/denmark.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/netherlands.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/netherlands.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/netherlands.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/estonia.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/estonia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/estonia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/finland.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/finland.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/finland.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/germany.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/germany.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/germany.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/greece.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/greece.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/greece.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/hebrew.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/israel.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/israel.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/hindi.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/india.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/india.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/hungary.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/hungary.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/hungary.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/icelandic.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/iceland.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/iceland.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/indonesian.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/indonesia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/indonesia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/italy.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/italy.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/italy.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/japan.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/japan.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/japan.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/south_korea.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/south-korea.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/south-korea.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/latvia.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/latvia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/latvia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/lithuania.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/lithuania.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/lithuania.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/norway.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/norway.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/norway.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/iran.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/iran.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/iran.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/poland.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/poland.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/poland.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/portugal.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/portugal.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/portugal.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/romania.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/romania.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/romania.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/russia.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/russia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/russia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/serbia.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/serbia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/serbia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/slovak.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/slovakia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/slovakia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/slovenia.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/slovenia.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/slovenia.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/sweden.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/sweden.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/sweden.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/thailand.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/thailand.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/thailand.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/turkey.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/turkey.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/turkey.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/ukraine.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/ukraine.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/ukraine.svg") no-repeat center center;
 }
 
 img[src="static/common/flags/vietnam.gif"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/flags/vietnam.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/flags/vietnam.svg") no-repeat center center;
 }
 
 /* Last 5 Movies */
@@ -3988,7 +4008,7 @@ img[alt="Default avatar"] {
     height: 150px;
     box-sizing: border-box;
     padding-left: 150px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/imgs/defualt_avatar_colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/imgs/defualt_avatar_colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4047,7 +4067,7 @@ img[alt="Default avatar"] {
 
 #friends .forum_post .time:before {
     content: "";
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/time.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/time.svg") no-repeat center center;
     background-size: 10px !important;
     width: 10px !important;
     height: 10px !important;
@@ -4118,7 +4138,7 @@ img[src="static/forums/locked_read.png"],
     display: inline-block;
     width: 11px !important;
     padding: 11px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/post-topic-read.svg") no-repeat left center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/post-topic-read.svg") no-repeat left center;
     background-size: contain;
 }
 
@@ -4126,7 +4146,7 @@ img[src="static/forums/locked_read.png"],
     display: inline-block;
     width: 11px !important;
     padding: 11px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/post-topic-unread.svg") no-repeat left center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/post-topic-unread.svg") no-repeat left center;
     background-size: contain;
 }
 
@@ -4134,7 +4154,7 @@ img[src="static/forums/locked_read.png"],
     display: inline-block;
     width: 10px !important;
     padding: 10px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-locked-read.svg") no-repeat left center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-locked-read.svg") no-repeat left center;
     background-size: contain;
 }
 
@@ -4142,13 +4162,13 @@ img[src="static/forums/locked_read.png"],
     display: inline-block;
     width: 10px !important;
     padding: 10px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-sticky-read.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-sticky-read.svg") no-repeat center center;
     background-size: contain;
 }
 
 .forum-topic--is-read-locked,
 img[src="static/forums/locked_read.png"] {
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-locked-read.svg") no-repeat left center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-locked-read.svg") no-repeat left center;
     background-size: contain;
 }
 
@@ -4162,7 +4182,7 @@ img[src="static/forums/locked_read.png"] {
     display: inline-block;
     width: 10px !important;
     padding: 10px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-locked-unread.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-locked-unread.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4170,14 +4190,14 @@ img[src="static/forums/locked_read.png"] {
     display: inline-block;
     width: 9px;
     padding: 9px !important;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-sticky-unread.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-sticky-unread.svg") no-repeat center center;
     background-size: contain !important;
 }
 
 .forum-topic--is-unread-locked {
     width: 32px;
     height: 32px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-locked-unread.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-locked-unread.svg") no-repeat center center;
     background-size: contain;
     -webkit-background-size: contain;
 }
@@ -4192,7 +4212,7 @@ img[src="static/forums/locked_read.png"] {
     height: 15px;
     box-sizing: border-box;
     padding-left: 15px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-right.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-right.svg") no-repeat center center;
     background-size: contain;
     margin-left: 5px;
 }
@@ -4208,7 +4228,7 @@ img[src="static/forums/locked_read.png"] {
     height: 12px !important;
     box-sizing: border-box;
     padding-left: 12px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/view-post.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/view-post.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4495,7 +4515,7 @@ img[src="static/forums/locked_read.png"] {
     font-weight: 700;
     text-align: center;
     border-radius: 4px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-sticky-unread.svg") no-repeat 20px center,
+    background: url("https://datfunc.github.io/ptp/assets/icons/topic-sticky-unread.svg") no-repeat 20px center,
         rgba(7, 11, 22, 0.65);
     background-size: 20px;
     border: none;
@@ -4511,7 +4531,7 @@ img[src="static/forums/locked_read.png"] {
     .alert--error {
         -webkit-backdrop-filter: blur(10px) !important;
         backdrop-filter: blur(10px) !important;
-        background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/topic-sticky-unread.svg") no-repeat 20px center,
+        background: url("https://datfunc.github.io/ptp/assets/icons/topic-sticky-unread.svg") no-repeat 20px center,
             rgba(7, 11, 22, 0.65);
         background-size: 20px;
     }
@@ -4886,7 +4906,7 @@ img[src="static/common/stars/AwardRating.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/popcorn-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/popcorn-colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4895,7 +4915,7 @@ img[src="static/common/stars/NoAwardRating.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/popcorn-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/popcorn-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4904,7 +4924,7 @@ img[src="static/common/stars/AwardUploads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-up.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-up.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4913,7 +4933,7 @@ img[src="static/common/stars/AwardMetaUploads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-up-met.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-up-met.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4922,7 +4942,7 @@ img[src="static/common/stars/NoAwardUploads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-up-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-up-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4931,7 +4951,7 @@ img[src="static/common/stars/AwardDownloads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-down.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-down.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4940,7 +4960,7 @@ img[src="static/common/stars/AwardMetaDownloads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-down-met.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-down-met.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4949,7 +4969,7 @@ img[src="static/common/stars/NoAwardDownloads.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/arrow-down-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/arrow-down-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4958,7 +4978,7 @@ img[src="static/common/stars/AwardData Transfer.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/two-way-arrows.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/two-way-arrows.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4967,7 +4987,7 @@ img[src="static/common/stars/AwardMetaData Transfer.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/two-way-arrows-met.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/two-way-arrows-met.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4976,7 +4996,7 @@ img[src="static/common/stars/NoAwardData Transfer.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/two-way-arrows-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/two-way-arrows-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4985,7 +5005,7 @@ img[src="static/common/stars/AwardRequests.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/requests-meta-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/requests-meta-colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -4994,7 +5014,7 @@ img[src="static/common/stars/AwardMetaRequests.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/requests-meta-met.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/requests-meta-met.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5003,7 +5023,7 @@ img[src="static/common/stars/NoAwardRequests.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/requests-meta-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/requests-meta-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5012,7 +5032,7 @@ img[src="static/common/stars/AwardChat.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/chat-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/chat-colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5021,7 +5041,7 @@ img[src="static/common/stars/AwardMetaChat.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/chat-met.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/chat-met.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5030,7 +5050,7 @@ img[src="static/common/stars/NoAwardChat.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/chat-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/chat-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5039,7 +5059,7 @@ img[src="static/common/stars/NoAwardMeta Awards.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-uncolored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-uncolored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5048,7 +5068,7 @@ img[src="static/common/stars/AwardMetaMeta Awards1.png"] {
     height: 17px;
     box-sizing: border-box;
     padding-left: 17px;
-    background: url("https://datfunc.github.io/ptp/blue_night/assets/icons/star-colored.svg") no-repeat center center;
+    background: url("https://datfunc.github.io/ptp/assets/icons/star-colored.svg") no-repeat center center;
     background-size: contain;
 }
 
@@ -5305,11 +5325,15 @@ body {
     }
 
     #top10 .cover-movie-list {
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .cover-movie-list__movie {
         margin: 22px 42px;
+    }
+
+    #top10 .cover-movie-list__movie {
+        margin: 22px 24px;
     }
 
     .small-cover-movie-list__movie__link--smaller {
