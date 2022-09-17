@@ -4,12 +4,12 @@
 // @version      0.3.5
 // @description  Adds a couple of UI enhancements to the Blue Night Stylesheet
 // @author       PuNkFuSe
-// @updateURL    https://datfunc.github.io/ptp/blue_night/blue_night-plus.user.js
-// @downloadURL  https://datfunc.github.io/ptp/blue_night/blue_night-plus.user.js
+// @updateURL    https://datfunc.github.io/ptp/blue_night-plus.user.js
+// @downloadURL  https://datfunc.github.io/ptp/blue_night-plus.user.js
 // @grant        none
 // @match        http*://*passthepopcorn.me/*
 // @run-at       document-end
-// @icon        https://datfunc.github.io/ptp/blue_night/assets/icons/post-topic-unread.svg
+// @icon        https://datfunc.github.io/ptp/assets/icons/post-topic-unread.svg
 // ==/UserScript==
 
 (() => {
