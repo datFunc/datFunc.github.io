@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Blue Night+
 // @namespace    http*://*passthepopcorn.me/*
-// @version      0.3.5
+// @version      0.3.6
 // @description  Adds a couple of UI enhancements to the Blue Night Stylesheet
 // @author       PuNkFuSe
 // @updateURL    https://datfunc.github.io/ptp/blue_night-plus.user.js
@@ -120,7 +120,7 @@
                 scrollToTop.append(element.imgElement);
                 element.imgElement.classList.add('arrowUpImg');
                 let arrowUpImg = document.querySelector('.arrowUpImg');
-                arrowUpImg.src = 'https://link.eu1.storjshare.io/s/14yL6oP7CjfyaaqjY8dAGB37mSCbG2SYv66A9TMNxyjnDQxM3ihMdHWD5GotdnQS2c3BwZyea3B8ohL8miVSNtGTcRvRJuDVcTRURYn4yUNxEr2rutH6UA49S8QgC28sUhNfPiqcGhaSKpZ5kJH34cadJdueSq8Pt81zGHP7Gp1CXQijHtJHQVQdgZwBjNEfS3h46nNHafLx457UuA5NkRF2RNYCuEkh75rqTVL3qpsZWPsvcPdEVgsFtNB62597TJb8BZ4czsJBKqeNyX/ptp/theme_blue-night/icons/arrow-up-white.svg?wrap=0';
+                arrowUpImg.src = 'https://datfunc.github.io/ptp/assets/icons/arrow-up-white.svg';
                 scrollToTop.addEventListener('click', () => window.scrollTo(0, 0));
                 scrollToTop.addEventListener('mouseover', () => { arrowUpImg.style.opacity = '1' });
                 scrollToTop.addEventListener('mouseout', () => { arrowUpImg.style.opacity = '.55' });
@@ -166,7 +166,7 @@
             initElement();
             element.documentHead.append(element.linkElement);
             let favicon = document.querySelector('.favicon');
-            let faviconImg = 'https://link.eu1.storjshare.io/s/14yL6oP7CjfyaaqjY8dAGB37mSCbG2SYv66A9TMNxyjnDQxM3ihMdHWD5GotdnQS2c3BwZyea3B8ohL8miVSNtGTcRvRJuDVcTRURYn4yUNxEr2rutH6UA49S8QgC28sUhNfPiqcGhaSKpZ5kJH34cadJdueSq8Pt81zGHP7Gp1CXQijHtJHQVQdgZwBjNEfS3h46nNHafLx457UuA5NkRF2RNYCuEkh75rqTVL3qpsZWPsvcPdEVgsFtNB62597TJb8BZ4czsJBKqeNyX/ptp/theme_blue-night/icons/post-topic-unread.svg?wrap=0';
+            let faviconImg = 'https://datfunc.github.io/ptp/assets/icons/post-topic-unread.svg';
             favicon.setAttribute('rel', 'shortcut icon');
             favicon.setAttribute('href', faviconImg);
             favicon.setAttribute('type', 'image/x-icon');
@@ -331,9 +331,9 @@
             };
 
             new Map([
-                ['☐' || '&#9744;', `<img src="https://link.eu1.storjshare.io/s/14yL6oP7CjfyaaqjY8dAGB37mSCbG2SYv66A9TMNxyjnDQxM3ihMdHWD5GotdnQS2c3BwZyea3B8ohL8miVSNtGTcRvRJuDVcTRURYn4yUNxEr2rutH6UA49S8QgC28sUhNfPiqcGhaSKpZ5kJH34cadJdueSq8Pt81zGHP7Gp1CXQijHtJHQVQdgZwBjNEfS3h46nNHafLx457UuA5NkRF2RNYCuEkh75rqTVL3qpsZWPsvcPdEVgsFtNB62597TJb8BZ4czsJBKqeNyX/ptp/theme_blue-night/icons/not-approved_alt.svg?wrap=0" class="torrentStatus">`]
-                , ['☑' || '&#9745;', `<img src="https://link.eu1.storjshare.io/s/14yL6oP7CjfyaaqjY8dAGB37mSCbG2SYv66A9TMNxyjnDQxM3ihMdHWD5GotdnQS2c3BwZyea3B8ohL8miVSNtGTcRvRJuDVcTRURYn4yUNxEr2rutH6UA49S8QgC28sUhNfPiqcGhaSKpZ5kJH34cadJdueSq8Pt81zGHP7Gp1CXQijHtJHQVQdgZwBjNEfS3h46nNHafLx457UuA5NkRF2RNYCuEkh75rqTVL3qpsZWPsvcPdEVgsFtNB62597TJb8BZ4czsJBKqeNyX/ptp/theme_blue-night/icons/badge-checker.svg?wrap=0" class="torrentStatus">`],
-                ['✿' || '&#10047;', `<img src="https://link.eu1.storjshare.io/s/14yL6oP7CjfyaaqjY8dAGB37mSCbG2SYv66A9TMNxyjnDQxM3ihMdHWD5GotdnQS2c3BwZyea3B8ohL8miVSNtGTcRvRJuDVcTRURYn4yUNxEr2rutH6UA49S8QgC28sUhNfPiqcGhaSKpZ5kJH34cadJdueSq8Pt81zGHP7Gp1CXQijHtJHQVQdgZwBjNEfS3h46nNHafLx457UuA5NkRF2RNYCuEkh75rqTVL3qpsZWPsvcPdEVgsFtNB62597TJb8BZ4czsJBKqeNyX/ptp/theme_blue-night/icons/gold-encode-checker.svg?wrap=0" class="torrentStatus">`]
+                ['☐' || '&#9744;', `<img src="https://datfunc.github.io/ptp/assets/icons/not-approved_alt.svg" class="torrentStatus">`]
+                , ['☑' || '&#9745;', `<img src="https://datfunc.github.io/ptp/assets/icons/badge-checker.svg" class="torrentStatus">`],
+                ['✿' || '&#10047;', `<img src="https://datfunc.github.io/ptp/assets/icons/gold-encode-checker.svg" class="torrentStatus">`]
             ]).forEach(replaceUnicodeChars);
         };
 
