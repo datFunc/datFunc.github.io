@@ -2979,7 +2979,7 @@ th {
   height: 20px;
 }
 
-.cover-movie-list__movie__year {
+span.cover-movie-list__movie__year {
   display: inline-block;
   vertical-align: super;
   margin-left: 0.1rem;
