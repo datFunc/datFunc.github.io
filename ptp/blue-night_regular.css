@@ -2924,10 +2924,6 @@ th {
 .cover-movie-list__movie__title-row,
 .cover-movie-list__movie__rating-and-tags {
   color: #fff;
-  max-width: 190px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   text-align: center;
   vertical-align: super;
   display: block;
@@ -2936,6 +2932,11 @@ th {
 
 .cover-movie-list__movie__title {
   color: #ffffff;
+  display: inline-block;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cover-movie-list__movie__new,
@@ -2976,6 +2977,12 @@ th {
   background-size: cover;
   width: 20px;
   height: 20px;
+}
+
+.cover-movie-list__movie__year {
+  display: inline-block;
+  vertical-align: super;
+  margin-left: 0.1rem;
 }
 
 #artist .cover-movie-list__movie__cover-link--seen::after,
