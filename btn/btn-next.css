@@ -2919,11 +2919,11 @@ p img {
 #lightbox {
   display: none;
   position: fixed;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(44, 44, 73, 0.88) !important;
   text-align: center;
   border-radius: 10px;
 }
@@ -3453,11 +3453,12 @@ script + .leftbar img {
 #content:has(.main_column > table#discog_table) .thin > center,
 #series .thin > center {
   order: 2;
-  pointer-events: none;
+  pointer-events: all;
 }
 #content:has(.main_column > table#discog_table) .thin > center > div,
 #series .thin > center > div {
   max-width: 100% !important;
+  position: relative;
 }
 #content:has(.main_column > table#discog_table) .thin > center > div h2,
 #series .thin > center > div h2 {
@@ -3467,9 +3468,9 @@ script + .leftbar img {
 #series .thin > center > div h2 img {
   -webkit-mask-image: linear-gradient(to top, transparent 0%, black 150%);
   mask-image: linear-gradient(to top, transparent 0%, black 150%);
-  transform: scale(1.5);
   transform-origin: top;
   border-radius: 5px;
+  width: 100%;
 }
 #content:has(.main_column > table#discog_table) .thin > center > img,
 #content:has(.main_column > table#discog_table) .thin > center > p,
@@ -3477,6 +3478,48 @@ script + .leftbar img {
 #series .thin > center > p {
   display: none;
 }
+
+#playbutton {
+  display: block !important;
+  position: relative !important;
+  top: -90px !important;
+  left: 0 !important;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  padding-left: 110px;
+  background: url("https://datfunc.github.io/btn/assets/icons/play-trailer.svg")
+    no-repeat center center;
+  background-size: contain;
+  opacity: 0.55 !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#playbutton:hover {
+  opacity: 1 !important;
+  transform: scale(1.1);
+}
+
+#trailer-inner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#trailer {
+  opacity: 1 !important;
+  background: rgba(44, 44, 73, 0.9) !important;
+  overflow: hidden;
+}
+
+#video {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, 50%);
+  padding: 10px;
+}
+
 #content:has(.main_column > table#discog_table) .thin > .linkbox,
 #series .thin > .linkbox {
   order: 1;
@@ -3489,6 +3532,7 @@ script + .leftbar img {
 #series .thin .main_column {
   order: 4;
   width: 100%;
+  margin-top: -30px;
 }
 #content:has(.main_column > table#discog_table) .thin .main_column table tr td,
 #series .thin .main_column table tr td {
@@ -3508,6 +3552,7 @@ script + .leftbar img {
 #series .thin .sidebar {
   flex: 2 1 0;
   order: 3;
+  margin-top: -30px;
 }
 #content:has(.main_column > table#discog_table) .thin .sidebar .stats table tr,
 #content:has(.main_column > table#discog_table)
@@ -4543,6 +4588,15 @@ script + .leftbar img {
 /* TODO */
 /* .rating-bg */
 /* SVG for category icons */
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  #lightbox,
+  #trailer {
+    -webkit-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;
+    background-color: rgba(39, 41, 64, 0.48);
+  }
+}
 
 #wrapper {
   margin-top: 1.5rem;
