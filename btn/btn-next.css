@@ -301,14 +301,15 @@ body {
   text-align: left;
   line-height: 1.4rem;
   word-wrap: break-word;
-  background: #191d2a url("https://datfunc.github.io/btn/assets/body_bg.svg");
+  background: #191d2a
+    url("https://datfunc.github.io/btn/assets/btn-bg-overlay.png");
   margin: 0 auto;
 }
 a {
   text-decoration: none;
   color: #c0bdda;
   border: none;
-  transition: color 0.1s;
+  transition: color 0.3s;
 }
 a:hover {
   text-decoration: none;
@@ -336,19 +337,24 @@ input:not([type="file"]) {
 button,
 input[type="button"],
 input[type="submit"] {
-  padding: 8px;
+  padding: 10px;
   font-weight: 700;
-  background-color: #c0bdda;
-  color: #121212;
+  background-color: #2d2c4c;
+  color: #ffffff;
   cursor: pointer;
-  transition: background-color 250ms, box-shadow 250ms;
+  font-size: 0.84rem;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  margin: 0.2rem;
 }
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover {
-  background-color: #a19cc8;
-  box-shadow: 0 0 5px #4b4577;
-  transition: background-color 250ms, box-shadow 250ms;
+  background-color: #42406c;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 select {
   background-color: #2f2b4c;
@@ -378,9 +384,9 @@ input:not([type="hidden"]) + input:not([type="hidden"]) {
 input[type="text"]:focus,
 textarea:focus {
   outline: 0;
-  border: 1px solid #4b4577 !important;
+  box-shadow: none;
+  border: 1px solid #039ec7 !important;
   transition: border 250ms, box-shadow 250ms;
-  box-shadow: 0 0 5px #4b4577;
 }
 input[type="text"]::-webkit-input-placeholder {
   color: #b3b3b3;
@@ -411,7 +417,7 @@ input:-webkit-autofill:active {
   padding-left: 0;
 }
 img[src*="favicon.ico"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/shutdown.svg");
+  content: url("https://datfunc.github.io/btn/assets/icons/logo.svg");
   width: 20px;
   vertical-align: middle;
 }
@@ -586,13 +592,40 @@ img[src*="browsetags/"] {
   vertical-align: middle;
 }
 img[src*="browsetags/download.png"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/download.svg");
+  display: inline-block;
+  margin: 0.2rem 0.2rem;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/download.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background-size: contain;
 }
 img[src*="browsetags/report.png"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/attention-triangle.svg");
+  display: inline-block;
+  margin: 0.2rem 0.2rem;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/report.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background-size: contain;
 }
 img[src*="browsetags/fast.png"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/ligntning.svg");
+  display: inline-block;
+  margin: 0.2rem 0.2rem;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/fast-alt.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background-size: contain;
 }
 img[src*="browsetags/20x.png"] {
   content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/two-x.svg");
@@ -601,10 +634,30 @@ img[src*="browsetags/auto.png"] {
   content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/robot.svg");
 }
 img[src*="browsetags/foreign.png"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/foreign.svg");
+  /*   content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/foreign.svg"); */
+  display: inline-block;
+  margin: 0.2rem 0.2rem;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/foreign.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background-size: contain;
 }
 img[src*="browsetags/new.png"] {
-  content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/new.svg");
+  /*   content: url("https://datfunc.github.io/btn/assets/icons/browse-tags/new.svg"); */
+  display: inline-block;
+  margin: 0.2rem 0.2rem;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/new.svg")
+    no-repeat center center;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-size: contain;
 }
 img[src*="icons/on.png"] {
   content: url("https://datfunc.github.io/btn/assets/icons/tick-circle.svg");
@@ -759,29 +812,55 @@ img[src*="smileys/nod.gif"] {
 img[src*="smileys/no.gif"] {
   content: url("https://datfunc.github.io/btn/assets/icons/emoji/no.svg");
 }
+
 *:has(> img[title="Snatches"]) img {
   display: none;
 }
 *:has(> img[title="Snatches"])::before {
   display: block;
-  content: "🔄";
-  text-align: center !important;
+  margin: 0 auto;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/snatched.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 19px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  background-size: contain;
+  background-position: bottom;
 }
+
 *:has(> img[title="Seeders"]) img {
   display: none;
 }
 *:has(> img[title="Seeders"])::before {
   display: block;
-  content: "⬆️";
-  text-align: center !important;
+  margin: 0 auto;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/arrow-up-white.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 19px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  background-size: contain;
+  background-position: bottom;
 }
 *:has(> img[title="Leechers"]) img {
   display: none;
 }
 *:has(> img[title="Leechers"])::before {
   display: block;
-  content: "⬇️";
-  text-align: center !important;
+  margin: 0 auto;
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/arrow-down-white.svg")
+    no-repeat center center;
+  width: 15px;
+  height: 19px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  background-size: contain;
+  background-position: bottom;
 }
 img[src*="/flag/"] {
   width: 20px;
@@ -1192,9 +1271,9 @@ strong + .code {
   width: 100%;
   padding: 10px 15px;
   background-color: #2f2b4c;
-  border-left: 2px solid #373257;
-  border-right: 2px solid #373257;
-  border-bottom: 2px solid #373257;
+  border-left: 1px solid #373257;
+  border-right: 1px solid #373257;
+  border-bottom: 1px solid #373257;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-bottom: 20px;
@@ -1245,6 +1324,7 @@ strong + .code {
   }
 }
 #header {
+  padding-top: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1296,8 +1376,8 @@ strong + .code {
   }
 }
 #donation {
-  position: relative;
-  top: 15px;
+  position: absolute;
+  top: 40px;
   font-size: 13px;
   width: 162px;
   height: 23px;
@@ -1318,7 +1398,7 @@ strong + .code {
 }
 #userinfo {
   background-color: #262340;
-  border: 2px solid #373257;
+  border: 1px solid #373257;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   display: flex;
@@ -1360,7 +1440,7 @@ strong + .code {
 #menu {
   background-color: #2f2b4c;
   display: block;
-  border: 2px solid #373257;
+  border: 1px solid #373257;
   border-top: none;
   padding: 0 10px;
 }
@@ -1382,9 +1462,10 @@ strong + .code {
   display: block;
   padding: 10px;
 }
+
 #menu > ul > li > ul {
   background-color: #2f2b4c;
-  border: 2px solid #373257;
+  border: 1px solid #373257;
   min-width: 180px;
   display: none;
   position: absolute;
@@ -1395,9 +1476,10 @@ strong + .code {
   margin: 0;
   z-index: 2;
   text-align: left;
+  transition: all 0.24s;
 }
 #menu > ul > li > ul > li {
-  border-top: 2px solid #373257;
+  border-top: 1px solid #373257;
 }
 #menu > ul > li > ul > li:hover {
   background: rgba(0, 0, 0, 0.1);
@@ -1427,7 +1509,7 @@ strong + .code {
 }
 #searchbars {
   background-color: #262340;
-  border: 2px solid #373257;
+  border: 1px solid #373257;
   border-top: none;
   display: block;
 }
@@ -1736,6 +1818,24 @@ body > .ui-widget-content .ui-state-hover {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.colhead a,
+a[title="View Series"],
+a[title="View Torrent"] {
+  font-weight: 700;
+  color: #ffff;
+}
+
+.colhead a:hover,
+a[title="View Series"]:hover,
+a[title="View Torrent"]:hover {
+  color: #c0bdda;
+}
+
+.torrent .nobr {
+  font-size: 0.8rem;
+}
+
 #requests .linkbox + table tr td:nth-of-type(3) > div,
 #collages .main_column table tr td:nth-of-type(3) > div,
 .torrent_table tr td:nth-of-type(3) > div {
@@ -1746,6 +1846,7 @@ body > .ui-widget-content .ui-state-hover {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 @media (max-width: 992px) {
   #requests .linkbox + table tr td:nth-of-type(3) > div,
   #collages .main_column table tr td:nth-of-type(3) > div,
@@ -1852,7 +1953,7 @@ body > .ui-widget-content .ui-state-hover {
   word-break: break-word;
 }
 .box .head {
-  border-bottom: 2px solid #2f2b4c;
+  border-bottom: 1px solid #2f2b4c;
   padding-bottom: 10px;
   margin-bottom: 5px;
   text-align: left;
@@ -2069,7 +2170,7 @@ ul.navigation.navigation a.selected {
   width: auto !important;
 }
 #slider h2 {
-  border-bottom: 2px solid #2f2b4c;
+  border-bottom: 1px solid #2f2b4c;
   padding-bottom: 10px;
   margin-bottom: 0;
   text-align: center;
@@ -2098,7 +2199,7 @@ ul.navigation.navigation a.selected {
   padding-bottom: 0;
 }
 #slider .scroll {
-  border-top: 2px solid #2f2b4c;
+  border-top: 1px solid #2f2b4c;
   width: 620px;
   margin: 0 auto;
 }
@@ -2591,6 +2692,9 @@ p img {
 #quickpostform #quickreplytext .bbcode-btntoolbar {
   background-color: transparent;
 }
+.bbcode-btntoolbar img {
+  transition: all 0.3s;
+}
 #quickpostform #quickreplytext .bbcode-btntoolbar .bbcode-sep {
   display: none;
 }
@@ -2692,6 +2796,10 @@ p img {
   height: auto;
   text-align: right;
 }
+#quickpostform #quickreplytext .bbcode-smileys img {
+  transition: all 0.3s;
+}
+
 #quickpostform #quickreplytext .bbcode-btnsmileys,
 #quickpostform #quickreplytext .bbcode-btnsmileyshover {
   margin: 0 5px 0 0;
@@ -2866,21 +2974,21 @@ body:has(#lightbox[style="display: block;"]) #content {
   border: 1px solid #960e29;
 }
 .alertbar {
-  background-color: #c0bdda;
-  border: 1px solid #918cbf;
+  background-color: #323250;
+  border: 1px solid #039ec7;
   text-align: center;
   width: 100%;
   padding: 10px;
 }
 .alertbar a {
-  color: #000 !important;
+  color: #ffffff !important;
   font-weight: 700;
   display: inline-block;
   vertical-align: middle;
 }
 .alertbar a::before {
   content: "";
-  background-image: url("https://datfunc.github.io/btn/assets/icons/browse-tags/attention-triangle.svg");
+  background-image: url("https://datfunc.github.io/btn/assets/icons/report.svg");
   background-size: contain;
   display: inline-block;
   margin-right: 5px;
@@ -2888,6 +2996,15 @@ body:has(#lightbox[style="display: block;"]) #content {
   width: 16px;
   height: 16px;
 }
+
+#del_announce::before {
+  display: none;
+}
+
+#del_announce:hover {
+  color: #ef263d !important;
+}
+
 a.permission_15,
 .permission_15 {
   color: #3cff00;
@@ -3563,7 +3680,7 @@ script + .leftbar img {
 }
 #torrents .thin .sidebar > center table .colhead_dark td {
   text-align: left;
-  border-bottom: 2px solid #2f2b4c;
+  border-bottom: 1px solid #2f2b4c;
   padding-bottom: 10px;
   margin-bottom: 5px;
   margin-top: -5px;
@@ -4422,3 +4539,7 @@ script + .leftbar img {
     padding-bottom: 10px;
   }
 }
+
+/* TODO */
+/* .rating-bg */
+/* SVG for category icons */
