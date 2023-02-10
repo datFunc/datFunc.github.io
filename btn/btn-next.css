@@ -1261,16 +1261,15 @@ strong + .code {
   line-height: normal;
 }
 #logo a::before {
-  content: url("https://datfunc.github.io/btn/assets/icons/shutdown.svg");
+  content: "";
+  background: url("https://datfunc.github.io/btn/assets/icons/logo.svg")
+    no-repeat center center;
+  background-size: contain;
   display: inline-block;
-  margin-right: 1rem;
-  width: 3rem;
-  height: 3rem;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5));
-  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5));
-  transition: -webkit-filter 250ms;
-  transition: filter 250ms;
-  transition: filter 250ms, -webkit-filter 250ms;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.6rem;
+  vertical-align: sub;
 }
 @media (max-width: 992px) {
   #logo a::before {
@@ -1287,19 +1286,6 @@ strong + .code {
   font-weight: 700;
   font-family: "Poppins-Bold", helvetica, tahoma, arial, sans-serif;
   font-size: 4rem;
-  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5));
-  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5));
-  transition: -webkit-filter 250ms;
-  transition: filter 250ms;
-  transition: filter 250ms, -webkit-filter 250ms;
-}
-#logo a:hover::before,
-#logo a:hover::after {
-  -webkit-filter: drop-shadow(1px 1px 3px rgba(255, 255, 255, 0.5)) sepia(10%);
-  filter: drop-shadow(1px 1px 3px rgba(255, 255, 255, 0.5)) sepia(10%);
-  transition: -webkit-filter 250ms;
-  transition: filter 250ms;
-  transition: filter 250ms, -webkit-filter 250ms;
 }
 @media (max-width: 992px) {
   #logo {
