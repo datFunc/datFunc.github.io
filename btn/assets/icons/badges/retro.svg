@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50"
+     viewBox="0 0 50 50" xml:space="preserve">
+    <g transform="matrix(0.101 0 0 0.101 24.9896 24.9896)" id="210929">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(1 0 0 1 -177.5 140)" id="Layer_1">
+                <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(70,248,255); fill-rule: nonzero; opacity: 1;"
+                      x="-20" y="-15" rx="0" ry="0" width="40" height="30"/>
+            </g>
+            <g transform="matrix(1 0 0 1 177.5 140)" id="Layer_1">
+                <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(70,248,255); fill-rule: nonzero; opacity: 1;"
+                      x="-20" y="-15" rx="0" ry="0" width="40" height="30"/>
+            </g>
+            <g transform="matrix(1 0 0 1 -123.75 -15)" id="Layer_1">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,218,68); fill-rule: nonzero; opacity: 1;"
+                        points="-44.207,60 -44.207,20 123.75,20 123.75,-10 -44.207,-10 -44.207,-50 123.75,-50 123.75,-140 -123.75,-140 -123.75,140 123.75,140 123.75,60 "/>
+            </g>
+            <g transform="matrix(1 0 0 1 123.75 -15)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,205,0); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-371.25, -232.5)"
+                      d="M 495 92.5 H 247.5 v 280 H 495 V 92.5 z M 345 302.5 c -38.598 0 -70 -31.402 -70 -70 s 31.402 -70 70 -70 s 70 31.402 70 70 S 383.598 302.5 345 302.5 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 62.5 -15)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(36,136,255); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-310, -232.5)"
+                      d="M 275 232.5 c 0 38.598 31.402 70 70 70 v -140 C 306.402 162.5 275 193.902 275 232.5 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 132.5 -15)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(0,94,206); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-380, -232.5)"
+                      d="M 345 162.5 v 140 c 38.598 0 70 -31.402 70 -70 S 383.598 162.5 345 162.5 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 -83.9785 -45)" id="Layer_1">
+                <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      x="-83.9785" y="-20" rx="0" ry="0" width="167.957" height="40"/>
+            </g>
+            <g transform="matrix(1 0 0 1 -83.9785 25)" id="Layer_1">
+                <rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"
+                      x="-83.9785" y="-20" rx="0" ry="0" width="167.957" height="40"/>
+            </g>
+        </g>
+    </g>
+</svg>

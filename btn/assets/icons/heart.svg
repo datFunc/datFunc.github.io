@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50"
+     viewBox="0 0 50 50" xml:space="preserve">
+    <g transform="matrix(0.5468 0 0 0.5468 24.9984 24.9984)" id="750693">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(1 0 0 1 -0.2556 2.1065)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(220,20,60); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-45.2444, -47.6065)"
+                      d="M 45.254 23.905 c 1.254 -2.551 2.703 -4.711 4.561 -6.586 c 7.412 -7.486 19.775 -8.174 27.914 -1.449 c 6.406 5.292 9.643 12.189 9.838 20.472 c 0.078 3.364 -1.174 6.432 -2.729 9.359 c -3.101 5.835 -7.378 10.767 -11.972 15.451 c -8.201 8.353 -17.287 15.664 -26.803 22.452 c -0.42 0.306 -0.741 0.648 -1.404 0.179 c -10.374 -7.422 -20.262 -15.41 -29.021 -24.726 c -3.734 -3.972 -7.111 -8.227 -9.813 -12.998 C 1.143 37.789 2.5 29.864 7.17 22.197 c 3.484 -5.717 8.517 -9.439 15.196 -10.657 c 9.1 -1.646 17.872 2.771 22.235 11.123 C 44.781 23.019 44.96 23.355 45.254 23.905 z"
+                      stroke-linecap="round"/>
+            </g>
+        </g>
+    </g>
+</svg>

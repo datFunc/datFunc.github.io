@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50"
+     viewBox="0 0 50 50" xml:space="preserve">
+    <g transform="matrix(0.0561 0 0 0.0561 22.8118 27.2185)" id="72343">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(22.2222 0 0 22.2222 -0.0004 -0.0004)">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,217,131); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-18, -18)"
+                      d="M 32 0 H 10 a 4 4 0 0 0 -4 4 v 24 H 4 a 4 4 0 0 0 0 8 h 24 a 4 4 0 0 0 4 -4 V 8 a 4 4 0 0 0 0 -8 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(22.2222 0 0 22.2222 44.4442 -211.1112)">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(227,159,61); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-20, -8.5)" d="M 8 10 h 24 V 8 H 10 L 8 7 z" stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(22.2222 0 0 22.2222 -244.4446 -0.0004)">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,232,182); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-7, -18)"
+                      d="M 10 0 a 4 4 0 0 0 -4 4 v 24.555 A 3.955 3.955 0 0 0 4 28 a 4 4 0 1 0 4 4 V 7.445 C 8.59 7.789 9.268 8 10 8 a 4 4 0 0 0 0 -8 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(22.2222 0 0 22.2222 -44.4559 -0.0115)">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(193,105,79); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-15.9995, -17.9995)"
+                      d="M 12 4 a 2 2 0 1 1 -4.001 -0.001 A 2 2 0 0 1 12 4 M 6 32 a 2 2 0 1 1 -4.001 -0.001 A 2 2 0 0 1 6 32 m 24 -17 a 1 1 0 0 1 -1 1 H 11 a 1 1 0 0 1 0 -2 h 18 a 1 1 0 0 1 1 1 m 0 4 a 1 1 0 0 1 -1 1 H 11 a 1 1 0 1 1 0 -2 h 18 a 1 1 0 0 1 1 1 m 0 4 a 1 1 0 0 1 -1 1 H 11 a 1 1 0 1 1 0 -2 h 18 a 1 1 0 0 1 1 1 m 0 4 a 1 1 0 0 1 -1 1 H 11 a 1 1 0 1 1 0 -2 h 18 a 1 1 0 0 1 1 1"
+                      stroke-linecap="round"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.0808 0 0 0.0808 30.8393 20.2539)" id="891122">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(1 0 0 1 6.9335 -11.1995)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(96,195,171); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-257.6, -239.467)"
+                      d="M 152.533 346.667 c 0 0 -26.667 -68.267 32 -132.267 c 0 0 10.667 18.133 13.867 41.6 c 0 0 29.867 -94.933 72.533 -130.133 c 0 0 16 32 3.2 60.8 c 0 0 29.867 -89.6 104.533 -131.2 L 370.133 92.8 c 0 0 53.333 -80 100.267 -92.8 c 0 0 41.6 81.067 -60.8 179.2 c 0 0 54.4 -25.6 74.667 -70.4 c 0 0 -10.667 118.4 -119.467 137.6 c 0 0 49.067 3.2 73.6 -23.467 c 0 0 -20.267 70.4 -150.4 68.267 c 0 0 43.733 18.133 70.4 9.6 c 0 0 -51.2 72.533 -131.2 51.2 c 0 0 28.8 27.733 53.333 20.267 c 0 0 -43.733 32 -109.867 22.4 l -57.6 67.2 l -82.133 17.067 C 32 477.867 156.8 352 152.533 346.667"
+                      stroke-linecap="round"/>
+            </g>
+        </g>
+    </g>
+</svg>

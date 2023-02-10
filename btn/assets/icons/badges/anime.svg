@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50"
+     viewBox="0 0 50 50" xml:space="preserve">
+    <g transform="matrix(0.7775 0 0 0.7775 24.9987 24.9987)" id="939923">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(1 0 0 1 0 0)" id="Layer_1">
+                <circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(199,92,92); fill-rule: nonzero; opacity: 1;"
+                        cx="0" cy="0" r="32"/>
+            </g>
+            <g transform="matrix(1 0 0 1 -0.0002 1)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(35,31,32); fill-rule: nonzero; opacity: 0.2;"
+                      transform=" translate(-31.9998, -33)"
+                      d="M 52.872 28.063 c -0.31 -0.951 -1.133 -1.645 -2.121 -1.79 l -11.327 -1.645 l -5.067 -10.263 c -0.444 -0.899 -1.356 -1.467 -2.357 -1.467 s -1.913 0.568 -2.357 1.467 l -5.064 10.263 L 13.25 26.273 c -0.991 0.145 -1.813 0.838 -2.121 1.79 c -0.31 0.951 -0.053 1.995 0.665 2.694 l 8.197 7.99 l -1.934 11.283 c -0.168 0.986 0.237 1.982 1.046 2.57 c 0.455 0.334 0.996 0.502 1.543 0.502 c 0.418 0 0.838 -0.1 1.222 -0.302 l 10.132 -5.327 l 10.132 5.327 c 0.384 0.202 0.804 0.302 1.222 0.302 c 0.544 0 1.088 -0.168 1.545 -0.502 c 0.809 -0.589 1.214 -1.585 1.046 -2.57 L 44.01 38.746 l 8.197 -7.99 C 52.922 30.06 53.18 29.014 52.872 28.063 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(1 0 0 1 -0.0002 -1)" id="Layer_1">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(245,207,135); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-31.9998, -31)"
+                      d="M 52.872 26.063 c -0.31 -0.951 -1.133 -1.645 -2.121 -1.79 l -11.327 -1.645 l -5.067 -10.263 c -0.444 -0.899 -1.356 -1.467 -2.357 -1.467 s -1.913 0.568 -2.357 1.467 l -5.064 10.263 L 13.25 24.273 c -0.991 0.145 -1.813 0.838 -2.121 1.79 c -0.31 0.951 -0.053 1.995 0.665 2.694 l 8.197 7.99 l -1.934 11.283 c -0.168 0.986 0.237 1.982 1.046 2.57 c 0.455 0.334 0.996 0.502 1.543 0.502 c 0.418 0 0.838 -0.1 1.222 -0.302 l 10.132 -5.327 l 10.132 5.327 c 0.384 0.202 0.804 0.302 1.222 0.302 c 0.544 0 1.088 -0.168 1.545 -0.502 c 0.809 -0.589 1.214 -1.585 1.046 -2.57 L 44.01 36.746 l 8.197 -7.99 C 52.922 28.06 53.18 27.014 52.872 26.063 z"
+                      stroke-linecap="round"/>
+            </g>
+        </g>
+    </g>
+</svg>

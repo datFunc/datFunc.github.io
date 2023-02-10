@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50"
+     viewBox="0 0 50 50" xml:space="preserve">
+    <g transform="matrix(0.0615 0 0 0.0615 25.0035 25.0035)" id="538135">
+        <g style="" vector-effect="non-scaling-stroke">
+            <g transform="matrix(2.3529 0 0 2.3529 -110.0854 341.1754)" id="XMLID_138_">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(222,221,224); fill-rule: nonzero; opacity: 1;"
+                        points="-46.7855,-25 -43.2145,25 46.7855,25 46.7855,-25 "/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 -127.7328 -152.9423)" id="XMLID_169_">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(222,221,224); fill-rule: nonzero; opacity: 1;"
+                        points="54.2855,-25 -54.2855,-25 -50.7145,25 54.2855,25 "/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 110.0816 341.1754)" id="XMLID_197_">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(172,171,177); fill-rule: nonzero; opacity: 1;"
+                        points="-46.7855,-25 -46.7855,25 43.2145,25 46.7855,-25 "/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 127.7283 -152.9423)" id="XMLID_221_">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(172,171,177); fill-rule: nonzero; opacity: 1;"
+                        points="-54.2855,-25 -54.2855,25 50.7145,25 54.2855,-25 "/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 -141.179 94.1143)" id="XMLID_222_">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,218,68); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-110, -210)"
+                      d="M 170 260 c -22.091 0 -40 -22.386 -40 -50 s 17.909 -50 40 -50 v -30 H 65 H 50 l 10 160 h 16.429 H 170 V 260 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 141.1739 94.1143)" id="XMLID_33_">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,152,17); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-230, -210)"
+                      d="M 170 130 v 30 c 22.091 0 40 22.386 40 50 s -17.909 50 -40 50 v 30 h 93.571 H 280 l 10 -160 h -15 H 170 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 47.058 94.1155)" id="XMLID_223_">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(80,65,46); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-190, -210)"
+                      d="M 210 210 c 0 -27.614 -17.909 -50 -40 -50 v 100 C 192.091 260 210 237.614 210 210 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 -47.0596 94.1155)" id="XMLID_224_">
+                <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(120,97,69); fill-rule: nonzero; opacity: 1;"
+                      transform=" translate(-150, -210)"
+                      d="M 130 210 c 0 27.614 17.909 50 40 50 V 160 C 147.909 160 130 182.386 130 210 z"
+                      stroke-linecap="round"/>
+            </g>
+            <g transform="matrix(2.3529 0 0 2.3529 -0.0054 -305.8841)" id="XMLID_225_">
+                <polygon
+                        style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(80,65,46); fill-rule: nonzero; opacity: 1;"
+                        points="108.571,40 130,40 130,0 90,0 90,-40 -90,-40 -90,0 -130,0 -130,40 -108.571,40 0,40 "/>
+            </g>
+        </g>
+    </g>
+</svg>
