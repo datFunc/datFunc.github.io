@@ -160,6 +160,7 @@ select {
 [type="submit"],
 button {
   -webkit-appearance: button;
+  -moz-appearance: button;
   appearance: button;
 }
 
@@ -210,6 +211,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
   appearance: textfield;
   outline-offset: -2px;
 }
@@ -423,7 +425,7 @@ input:not([type="file"]) {
 #playbutton,
 #quickpostform #quickreplytext .bbcode-smileys img,
 .bbcode-btntoolbar img {
-  transition: 0.3s;
+  transition: 0.3s all;
 }
 
 button,
@@ -478,8 +480,6 @@ textarea {
 .postcontent textarea[name="body"] {
   display: block;
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -703,12 +703,14 @@ img[src*="tvicon/"] {
 img[src*="icons/page_copy"] {
   content: url("https://datfunc.github.io/btn/assets/icons/quote.svg");
   width: 16px;
+  opacity: 0.55;
   vertical-align: middle;
 }
 
 img[src*="icons/comment_edit"] {
   content: url("https://datfunc.github.io/btn/assets/icons/comment-edit.svg");
   width: 16px;
+  opacity: 0.55;
   vertical-align: middle;
 }
 
@@ -1916,7 +1918,7 @@ body > .ui-widget-content .ui-state-hover {
 }
 
 #footer p:first-of-type::after {
-  content: "BTN Future © Starblaster100 & PuNkFuSe";
+  content: "BTN Next © Starblaster100 & PuNkFuSe";
   display: block;
   padding-left: 3px;
 }
@@ -2162,8 +2164,6 @@ body > .ui-widget-content .ui-state-hover {
   height: 60px;
 }
 
-/* TODO: add this in the right spot... */
-
 #torrent_table > tbody > tr > td:nth-child(2) > a[href*="series.php"] {
   position: relative;
 }
@@ -2200,7 +2200,7 @@ body > .ui-widget-content .ui-state-hover {
   position: absolute;
   overflow: hidden;
   top: 35%;
-  left: 45%;
+  left: 35%;
   color: #ffffff;
   text-align: center;
   display: block;
@@ -2920,8 +2920,6 @@ ul.navigation.navigation a:hover {
   font-size: 0.73rem;
   color: #c0bdda;
   line-height: 1.5;
-  /*   opacity: 0.6;
-  transition: opacity 0.2s; */
 }
 
 .forum_post tbody tr:nth-of-type(2) .avatar .user_details:hover,
@@ -3821,7 +3819,7 @@ script + .leftbar ul {
 
 #trailer {
   opacity: 1 !important;
-  background: rgba(44, 44, 73, 0.9) !important;
+  background: rgba(6, 7, 11, 0.7) !important;
   overflow: hidden;
 }
 
@@ -4964,9 +4962,8 @@ script + .leftbar ul {
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   #lightbox,
   #trailer {
-    -webkit-backdrop-filter: blur(5px) !important;
-    backdrop-filter: blur(5px) !important;
-    background-color: rgba(39, 41, 64, 0.48);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 }
 
