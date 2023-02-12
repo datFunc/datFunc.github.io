@@ -2179,7 +2179,7 @@ body > .ui-widget-content .ui-state-hover {
   z-index: 2;
   transition: 0.3s all;
   opacity: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.24rem;
 }
 
 #torrent_table
@@ -2200,13 +2200,13 @@ body > .ui-widget-content .ui-state-hover {
   position: absolute;
   overflow: hidden;
   top: 35%;
-  left: 35%;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   display: block;
   margin: 0 auto;
   opacity: 0;
   z-index: 3;
+  margin-left: 1rem;
   transition: 0.3s all;
   transform: translateX(-30px);
 }
@@ -2224,6 +2224,17 @@ body > .ui-widget-content .ui-state-hover {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   display: block;
   transition: 0.3s all;
+}
+
+a img[src="https://cdn.broadcasthe.net/btn_no_image.png"] {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("https://datfunc.github.io/btn/assets/btn-default-cover.png") no-repeat center center;
+  background-size: cover;
+  width: 250px;
+  height: 60px;
+  padding-left: 250px;
 }
 
 #collages .main_column table tr td:nth-of-type(3) > a:last-of-type,
