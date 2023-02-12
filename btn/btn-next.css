@@ -1,12 +1,3 @@
-/*
-██████  ████████ ███    ██     ███    ██ ███████ ██   ██ ████████
-██   ██    ██    ████   ██     ████   ██ ██       ██ ██     ██
-██████     ██    ██ ██  ██     ██ ██  ██ █████     ███      ██
-██   ██    ██    ██  ██ ██     ██  ██ ██ ██       ██ ██     ██
-██████     ██    ██   ████     ██   ████ ███████ ██   ██    ██
-
-By: Starblaster100 & PuNkFuSe
-*/
 button,
 hr,
 input {
@@ -36,7 +27,11 @@ legend {
   max-width: 100%;
 }
 
+#edit_summary,
+#forums .box,
+#forums .box .body,
 #menu > ul > li,
+#torrent_table > tbody > tr > td:nth-child(2) > a[href*="series.php"],
 .graph,
 sub,
 sup {
@@ -406,6 +401,8 @@ blockquote {
   border-radius: 3px;
 }
 
+#menu,
+#menu > ul > li > ul,
 button,
 input:not([type="file"]),
 select {
@@ -425,7 +422,7 @@ input:not([type="file"]) {
 #playbutton,
 #quickpostform #quickreplytext .bbcode-smileys img,
 .bbcode-btntoolbar img {
-  transition: 0.3s all;
+  transition: 0.3s;
 }
 
 button,
@@ -772,8 +769,8 @@ img[src*="browsetags/report.png"] {
 }
 
 img[src*="browsetags/report.png"]:hover {
-  -webkit-animation: pulse-red 2s infinite;
-  animation: pulse-red 2s infinite;
+  -webkit-animation: 2s infinite pulse-red;
+  animation: 2s infinite pulse-red;
 }
 
 img[src*="browsetags/fast.png"] {
@@ -1584,6 +1581,7 @@ img[src*="/flag/yugoslavia"] {
 #tvnews .thin .main_column .linkbox:first-of-type,
 #tvnews .thin > a img,
 #userinfo #userinfo_minor,
+.alertbar a[href*="action=notify_clear"]::before,
 .code br,
 .hidden,
 .hide,
@@ -1613,6 +1611,7 @@ img[src*="/flag/yugoslavia"] {
 #collages .main_column table tr td:nth-of-type(7),
 #collages .main_column table tr td:nth-of-type(8),
 #content > h2,
+#footer,
 #forums .thin > form > table .cat_list td[colspan="5"],
 #forums
   .thin
@@ -1621,6 +1620,8 @@ img[src*="/flag/yugoslavia"] {
   td:nth-of-type(5):not(.last_post),
 #forums .thin > table:not(.forum_post) .read,
 #friends .thin .main_column table,
+#logo,
+#menu > ul > li,
 #newsletter .colhead,
 #recommend h3,
 #requests .linkbox + table .sign,
@@ -1630,10 +1631,12 @@ img[src*="/flag/yugoslavia"] {
 #requests .linkbox + table tr td:nth-of-type(7),
 #requests .linkbox + table tr td:nth-of-type(8),
 #reviews div.review_search,
+#slider h2,
 #snatchlist .thin table:first-of-type td,
 #top10 #content p,
 .center,
 .filter_torrents .cat_list td[colspan="5"],
+.linkbox,
 .thin > h2,
 .thin > h3,
 .torrent_table .sign,
@@ -1657,14 +1660,6 @@ img[src*="/flag/yugoslavia"] {
 #torrents .thin .sidebar .box,
 .left {
   text-align: left;
-}
-
-#footer,
-#logo,
-#menu > ul > li,
-#slider h2,
-.linkbox {
-  text-align: center;
 }
 
 #requests .thin tr.rowa td,
@@ -1700,8 +1695,17 @@ strong + .code {
 }
 
 #donation,
-#userinfo {
+#staffpm #compose,
+#userinfo,
+.graph {
   border: 1px solid #373257;
+}
+
+#inbox .thin > form:last-of-type table tr:first-of-type,
+#inbox .thin > form:last-of-type table tr:last-of-type,
+#menu,
+#menu > ul > li > ul :first-child {
+  border-top: none;
 }
 
 .sidebar {
@@ -1812,19 +1816,12 @@ a.permission_2 {
   padding: 10px;
 }
 
-#menu,
-#menu > ul > li > ul {
-  border: 1px solid #373257;
-  background-color: #2f2b4c;
-}
-
 #userinfo ul li {
   padding: 0 8px;
 }
 
 #menu {
   display: block;
-  border-top: none;
   padding: 0 10px;
 }
 
@@ -1857,12 +1854,6 @@ a.permission_2 {
 
 #menu > ul > li > ul > li {
   border-top: 1px solid #373257;
-}
-
-#inbox .thin > form:last-of-type table tr:first-of-type,
-#inbox .thin > form:last-of-type table tr:last-of-type,
-#menu > ul > li > ul :first-child {
-  border-top: none;
 }
 
 #menu > ul > li:hover {
@@ -2154,7 +2145,18 @@ body > .ui-widget-content .ui-state-hover {
 
 #collages .main_column table td > span img,
 #requests .linkbox + table td > span img,
-.torrent_table td > span img {
+#serieslist table td,
+#slider .label,
+#slider [id="section4.editprofile"] table tbody tr td,
+#slider [id="section5.editprofile"] .label,
+#slider table td,
+#tvfavs .label,
+#user #content > .thin:not(.useredit) td,
+.forum_post tbody tr:nth-of-type(2) .body .postcontent img,
+.torrent_table td > span img,
+.user_profile h2 img,
+li img,
+p img {
   vertical-align: middle;
 }
 
@@ -2178,10 +2180,6 @@ body > .ui-widget-content .ui-state-hover {
   height: 60px;
 }
 
-#torrent_table > tbody > tr > td:nth-child(2) > a[href*="series.php"] {
-  position: relative;
-}
-
 #torrent_table > tbody > tr > td:nth-child(2) > a[href*="series.php"]:before {
   content: "";
   position: absolute;
@@ -2192,14 +2190,14 @@ body > .ui-widget-content .ui-state-hover {
   background: rgba(6, 7, 11, 0.7);
   background-image: repeating-radial-gradient(
     circle at 17% 32%,
-    white,
-    black 0.00085px
+    #fff,
+    #000 0.00085px
   );
   background-blend-mode: overlay;
   background-position: center;
-  animation: back 5s linear infinite;
+  animation: 5s linear infinite back;
   z-index: 2;
-  transition: 0.3s all;
+  transition: 0.3s;
   opacity: 0;
   border-radius: 0.24rem;
 }
@@ -2216,7 +2214,6 @@ body > .ui-widget-content .ui-state-hover {
   content: "Browse \279E";
   font-size: 0.7rem;
   font-weight: 700;
-  display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -2225,11 +2222,10 @@ body > .ui-widget-content .ui-state-hover {
   color: #fff;
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0 1rem;
   opacity: 0;
   z-index: 3;
-  margin-left: 1rem;
-  transition: 0.3s all;
+  transition: 0.3s;
   transform: translateX(-30px);
 }
 
@@ -2245,7 +2241,7 @@ body > .ui-widget-content .ui-state-hover {
 #torrent_table > tbody > tr > td:nth-child(2) > a[href*="series.php"] img {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   display: block;
-  transition: 0.3s all;
+  transition: 0.3s;
 }
 
 a img[src="https://cdn.broadcasthe.net/btn_no_image.png"]
@@ -2253,8 +2249,7 @@ a img[src="https://cdn.broadcasthe.net/btn_no_image.png"]
   display: block;
   box-sizing: border-box;
   background: url("https://datfunc.github.io/btn/assets/btn-default-cover.png")
-    no-repeat center center;
-  background-size: cover;
+    center center/cover no-repeat;
   width: 250px;
   height: 60px;
   padding-left: 250px;
@@ -2277,7 +2272,6 @@ a[title="View Torrent"] {
   font-weight: 700;
   color: #ffff;
   font-size: 0.75rem;
-  line-height: 1.4;
 }
 
 .colhead a:hover,
@@ -2286,7 +2280,7 @@ a[title="View Torrent"]:hover {
   color: #c0bdda;
 }
 
-.group_torrent .year {
+.main_column .group_torrent .year {
   font-size: 0.65rem;
   line-height: 1.8;
   color: #c0bdda !important;
@@ -2305,20 +2299,6 @@ a[title="View Torrent"]:hover {
   vertical-align: bottom;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-#serieslist table td,
-#slider .label,
-#slider [id="section4.editprofile"] table tbody tr td,
-#slider [id="section5.editprofile"] .label,
-#slider table td,
-#tvfavs .label,
-#user #content > .thin:not(.useredit) td,
-.forum_post tbody tr:nth-of-type(2) .body .postcontent img,
-.user_profile h2 img,
-li img,
-p img {
-  vertical-align: middle;
 }
 
 @media (max-width: 992px) {
@@ -2457,11 +2437,6 @@ p img {
   padding: 15px;
 }
 
-#forums .box,
-#forums .box .body {
-  position: relative;
-}
-
 #forums .box .body {
   height: 0;
   max-height: 0;
@@ -2479,6 +2454,7 @@ p img {
   vertical-align: bottom;
 }
 
+#edit_summary .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected a,
 #forums .box .head,
 #forums .box .head::after {
   cursor: pointer;
@@ -2487,11 +2463,6 @@ p img {
 #forums .box:hover .body {
   height: auto;
   max-height: 9999px;
-}
-
-#staffpm #compose,
-.graph {
-  border: 1px solid #373257;
 }
 
 #forums .thin > form > table table:not(#taglist) tr,
@@ -2617,6 +2588,11 @@ p img {
   overflow: hidden;
 }
 
+#slider,
+.forum_post {
+  border-radius: 0.24rem;
+}
+
 .graph #center_poll {
   top: 0;
   left: 0;
@@ -2636,7 +2612,6 @@ ul.navigation.navigation a:hover {
 }
 
 #slider {
-  border-radius: 0.24rem;
   width: auto !important;
 }
 
@@ -2684,58 +2659,6 @@ ul.navigation.navigation a:hover {
 
 .midbar #slider div.panel {
   width: 922px;
-}
-
-@media (max-width: 1236px) {
-  #forums .thin > form > table > tbody > tr > td:first-of-type {
-    display: none;
-  }
-
-  #forums .thin > form > table > tbody > tr > td {
-    width: 100%;
-  }
-
-  #forums .thin > form > table .cat_list {
-    table-layout: fixed;
-    width: 100%;
-  }
-
-  #forums .thin > form > table .cat_list td {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
-  }
-
-  #forums .thin > form > table td:has(input[name="search"])::before {
-    content: "Search Term: ";
-    display: inline-block;
-    margin-right: 5px;
-    font-weight: 700;
-  }
-
-  #forums .thin > form > table td:has(input[name="user"])::before {
-    content: "Username: ";
-    display: inline-block;
-    margin-right: 5px;
-    font-weight: 700;
-  }
-
-  .midbar #slider .scroll {
-    width: 700px;
-  }
-
-  .midbar #slider div.panel {
-    width: 690px;
-  }
-
-  .midbar #slider div.panel .tvshows .pad:last-of-type img {
-    width: 120px !important;
-  }
-
-  #slider .tvshows .mid img {
-    width: 250px !important;
-  }
 }
 
 #slider [id="section4.editprofile"] table tbody {
@@ -2911,7 +2834,6 @@ ul.navigation.navigation a:hover {
   padding: 0;
   border-style: hidden;
   box-shadow: 0 0 0 1px #373257;
-  border-radius: 0.24rem;
   overflow: hidden;
 }
 
@@ -3114,6 +3036,7 @@ ul.navigation.navigation a:hover {
 
 #edit_summary .ui-tabs-vertical,
 #quickpostform #quickreplytext textarea,
+#section2 table,
 #tvnews .thin,
 #user #content > .thin:not(.useredit),
 .home .main_column table,
@@ -3278,10 +3201,6 @@ ul.navigation.navigation a:hover {
   padding: 5px;
 }
 
-#edit_summary {
-  position: relative;
-}
-
 #edit_summary .ui-tabs-vertical .ui-tabs-nav {
   padding: 0;
   margin: 0;
@@ -3313,10 +3232,6 @@ ul.navigation.navigation a:hover {
   background: #2b2746;
   border-radius: 0.24rem;
   border: 1px solid #373257 !important;
-}
-
-#edit_summary .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected a {
-  cursor: pointer;
 }
 
 #edit_summary .ui-tabs-vertical .ui-tabs-nav .ui-state-default {
@@ -3428,8 +3343,8 @@ html:has(#lightbox[style="display: block;"]) h1 {
   color: #319bc2 !important;
 }
 
-.alertbar a[href*="news"]::before,
-.alertbar a[href*="action=notify"]::before {
+.alertbar a[href*="action=notify"]::before,
+.alertbar a[href*="news"]::before {
   content: "";
   background-size: contain;
   margin-right: 8px;
@@ -3445,10 +3360,6 @@ html:has(#lightbox[style="display: block;"]) h1 {
 
 .alertbar a[href*="action=notify"]::before {
   background-image: url("https://datfunc.github.io/btn/assets/icons/notifications.png");
-}
-
-.alertbar a[href*="action=notify_clear"]::before {
-  display: none;
 }
 
 #del_announce:hover,
@@ -3655,10 +3566,6 @@ script + .leftbar ul {
   height: 13px;
 }
 
-#section2 table {
-  width: 100%;
-}
-
 #section2 table td {
   border-bottom: 1px solid #2f2b4c;
   padding: 3px;
@@ -3723,8 +3630,55 @@ script + .leftbar ul {
 }
 
 @media (max-width: 1236px) {
+  #forums .thin > form > table > tbody > tr > td:first-of-type,
   #upload .torrent_table td:nth-of-type(2) {
     display: none;
+  }
+
+  #forums .thin > form > table > tbody > tr > td {
+    width: 100%;
+  }
+
+  #forums .thin > form > table .cat_list {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  #forums .thin > form > table .cat_list td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  #forums .thin > form > table td:has(input[name="search"])::before {
+    content: "Search Term: ";
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700;
+  }
+
+  #forums .thin > form > table td:has(input[name="user"])::before {
+    content: "Username: ";
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700;
+  }
+
+  .midbar #slider .scroll {
+    width: 700px;
+  }
+
+  .midbar #slider div.panel {
+    width: 690px;
+  }
+
+  .midbar #slider div.panel .tvshows .pad:last-of-type img {
+    width: 120px !important;
+  }
+
+  #slider .tvshows .mid img {
+    width: 250px !important;
   }
 
   #styles img[id*="css_"] {
@@ -3850,7 +3804,7 @@ script + .leftbar ul {
     center center/contain no-repeat;
   opacity: 0.4 !important;
   cursor: pointer;
-  transition: 0.3s all;
+  transition: 0.3s;
 }
 
 #playbutton:hover {
@@ -4430,7 +4384,7 @@ script + .leftbar ul {
     flex-wrap: wrap;
   }
 
-  #slider .tvshows table:first-of-type tr td:nth-of-type(1) {
+  #slider .tvshows table:first-of-type tr td:first-of-type {
     order: 1;
     text-align: left;
     flex-basis: 20%;
@@ -4627,6 +4581,12 @@ script + .leftbar ul {
 }
 
 @media (max-width: 768px) {
+  #collages .filter_torrents tr,
+  #collages .filter_torrents tr input[name="search"],
+  #upload .torrent_table {
+    width: 100%;
+  }
+
   #forums .thin > form > table input[type="text"],
   .filter_torrents input[type="text"] {
     display: block;
@@ -4709,11 +4669,6 @@ script + .leftbar ul {
     table-layout: fixed;
   }
 
-  #collages .filter_torrents tr input[name="search"],
-  #upload .torrent_table {
-    width: 100%;
-  }
-
   #user:has(#content > .thin.useredit) #header::after {
     content: "⚠️ This is a non responsive page. View this page on a wider screen to see the whole user profile";
     display: block;
@@ -4725,9 +4680,10 @@ script + .leftbar ul {
     text-align: center;
   }
 
+  #collages .filter_torrents tr,
   #styles table tr {
-    display: flex;
     flex-direction: column;
+    display: flex;
   }
 
   #torrents .thin .sidebar {
@@ -4736,12 +4692,6 @@ script + .leftbar ul {
 
   #torrents .thin .main_column {
     order: 3;
-  }
-
-  #collages .filter_torrents tr {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 
   #requests .thin > table td {
@@ -5084,6 +5034,7 @@ script + .leftbar ul {
   from {
     background-size: 100% 100%;
   }
+
   to {
     background-size: 200% 200%;
   }
