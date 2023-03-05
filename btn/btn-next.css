@@ -282,7 +282,7 @@ body {
   text-align: left;
   line-height: 1.4rem;
   word-wrap: break-word;
-  background: url("https://datfunc.github.io/btn/assets/btn-bg-overlay.png") #272741;
+  background: url("https://datfunc.github.io/btn/assets/btn-bg-overlay.png") #272741 top center/cover;
   margin: 0 auto
 }
 
