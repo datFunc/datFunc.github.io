@@ -1685,7 +1685,7 @@ body>.ui-widget-content .ui-state-hover {
 
 #bonus table tr:nth-child(2n),#collages table tr:nth-child(2n),#content:has(.main_column > table#discog_table) #content>.thin>table tr:nth-child(2n),#content:has(.main_column > table#discog_table) .main_column table:not(.torrent_table) tr:nth-child(2n),#content:has(.main_column > table#discog_table) .sidebar .box form table tr:nth-child(2n),#content:has(.main_column > table#discog_table) .sidebar .stats table tr:nth-child(2n),#forums .thin>form>table tr:nth-child(2n),#forums .thin>table tr:nth-child(2n),#friends table tr:nth-child(2n),#inbox table tr:nth-child(2n),#newsletter table tr:nth-child(2n),#nfo table tr:nth-child(2n),#recommend table tr:nth-child(2n),#requests table tr:nth-child(2n),#rules table tr:nth-child(2n),#series #content>.thin>table tr:nth-child(2n),#series .main_column table:not(.torrent_table) tr:nth-child(2n),#series .sidebar .box form table tr:nth-child(2n),#series .sidebar .stats table tr:nth-child(2n),#serieslist table tr:nth-child(2n),#showslist table tr:nth-child(2n),#snatchlist table tr:nth-child(2n),#staff table tr:nth-child(2n),#staffpm table tr:nth-child(2n),#top10 table tr:nth-child(2n),#torrents #content>.thin>table tr:nth-child(2n),#tvfavs table tr:nth-child(2n),#tvnews table tr:nth-child(2n),#upload table tr:nth-child(2n),#user table tr:nth-child(2n),#userhistory table tr:nth-child(2n),.filter_torrents table tr:nth-child(2n),.torrent_table table tr:nth-child(2n),.torrent_table tr:nth-child(2n) {
   background-color: #2b2746;
-  border: 1px solid #373257
+  border: 1px solid #373257;
 }
 
 #bonus table td,#collages table td,#content:has(.main_column > table#discog_table) #content>.thin>table td,#content:has(.main_column > table#discog_table) .main_column table:not(.torrent_table) td,#content:has(.main_column > table#discog_table) .sidebar .box form table td,#content:has(.main_column > table#discog_table) .sidebar .stats table td,#forums .thin>form>table td,#forums .thin>table td,#friends table td,#inbox table td,#newsletter table td,#nfo table td,#recommend table td,#requests table td,#rules table td,#series #content>.thin>table td,#series .main_column table:not(.torrent_table) td,#series .sidebar .box form table td,#series .sidebar .stats table td,#serieslist table td,#showslist table td,#snatchlist table td,#staff table td,#staffpm table td,#top10 table td,#torrents #content>.thin>table td,#tvfavs table td,#tvnews table td,#upload table td,#user table td,#userhistory table td,.filter_torrents table td,.torrent_table table td,.torrent_table td {
@@ -3976,6 +3976,12 @@ script+.leftbar ul {
   }
 }
 
+#messageform > table > tbody > tr.unreadpm {
+  border-radius: 0.24rem;
+  outline: 1px solid #039ec7;
+}
+
+
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter:none)) {
   #lightbox,#trailer {
       -webkit-backdrop-filter:blur(10px);
@@ -4011,7 +4017,7 @@ script+.leftbar ul {
 
 @media (min-width: 1400px) {
   #wrapper {
-      max-width:1320px
+      max-width:1200px
   }
 }
 
