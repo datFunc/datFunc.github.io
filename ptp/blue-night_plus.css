@@ -5677,3 +5677,14 @@ body {
   opacity: 0;
   transition: all 0.3s;
 }
+
+.forum-post--sticky {
+    border: 1px solid #4281da;
+    box-shadow: 0 0 40px rgba(66, 129, 218, .24);
+    background: #191d2a url("https://datfunc.github.io/ptp/assets/imgs/body_bg.svg") top center;
+    background-size: cover;
+}
+
+.sticky_post {
+    color: #4281da;
+}
