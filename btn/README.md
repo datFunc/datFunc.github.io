@@ -1,5 +1,5 @@
 # BTN Next
-A Modern Stylesheet for BTN. This stylesheet was developed and designed by PuNkFuSe, but Starblaster100 took the initiative to develope the initial version (kudos)
+A Modern Stylesheet for BTN. This stylesheet was developed and designed by PuNkFuSe, but Starblaster100 took the initiative to develop the initial version (kudos)
 
 ## BTN Next
 #### Features
