@@ -3367,8 +3367,20 @@ html:has(#lightbox[style="display: block;"]) h1 {
 }
 
 .save_message {
-  background-color: #2e8b57;
-  border: 1px solid #1b5233;
+  background-color: #323250;
+  border: 1px solid #039ec7;
+  font-weight: 700;
+}
+
+.save_message::before {
+  content: "";
+  background-size: contain;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: sub;
+  background-image: url("https://datfunc.github.io/btn/assets/icons/checked.svg");
 }
 
 .error_message {
@@ -4031,6 +4043,19 @@ script + .leftbar ul {
   transform: scale(1.5);
   transform-origin: top;
   border-radius: 0.24rem;
+}
+
+#torrents .thin > h2 a::before {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  content: "\21A9 \00a0 Back to Series";
+  pointer-events: auto;
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #kb #content > .thin .main_column,
