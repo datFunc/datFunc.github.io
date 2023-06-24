@@ -4064,3 +4064,17 @@ script+.leftbar ul {
       background-size: 200% 200%
   }
 }
+
+#tiptip_content {
+  background-color: #323250 !important;
+  background-image: none !important;
+  border-color: #019ec7 !important;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  border-right-color: #323250 !important;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: #019ec7 !important;
+}
