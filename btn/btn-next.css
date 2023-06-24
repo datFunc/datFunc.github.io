@@ -339,7 +339,7 @@ button:hover,input[type=button]:hover,input[type=submit]:hover {
 }
 
 #menu>ul>li:hover,#menu>ul>li>ul>li:hover {
-  background: rgba(0,0,0,.1)
+  background: rgba(0,0,0,.15)
 }
 
 select {
