@@ -3067,14 +3067,14 @@ ul.navigation.navigation a:hover {
 }
 
 #quickpostform #quickreplytext .bbcode-btntoolbar .bbcode-btn {
-  margin: 0 5px 0;
+  margin: -5px 5px 0;
   width: 20px;
   height: 20px;
   opacity: 0.55;
 }
 
 #quickpostform #quickreplytext .bbcode-btntoolbar .bbcode-btnhover {
-  margin: 0 5px 0;
+  margin: -5px 5px 0;
   width: 20px;
   height: 20px;
   background: 0 0;
@@ -3188,8 +3188,8 @@ ul.navigation.navigation a:hover {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 13px;
-  left: 284px;
+  top: 18px;
+  left: 286px;
   content: "";
   display: inline-block;
   width: 15px;
@@ -3218,7 +3218,7 @@ ul.navigation.navigation a:hover {
 
 #quickpostform #quickreplytext .bbcode-btnsmileys,
 #quickpostform #quickreplytext .bbcode-btnsmileyshover {
-  margin: 0 5px 0 0;
+  margin: 5px 5px 0 0;
   padding: 0;
   background: 0 0;
   border: none;
