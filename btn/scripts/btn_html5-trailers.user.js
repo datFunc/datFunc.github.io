@@ -12,7 +12,7 @@
 // @run-at       document-end
 // ==/UserScript==
 
-(function () {
+( () => {
   'use strict';
 
   // Select the node that will be observed for mutations
@@ -28,8 +28,7 @@
   const applyStyling = (styles) => {
     const style = document.createElement('style');
     let styleContent = '';
-    for (let selector in styles)
-      styleContent += `${selector} { ${styles[selector]} }`;
+    for (let selector in styles) styleContent += `${selector} { ${styles[selector]} }`;
     style.innerHTML = styleContent;
     document.head.appendChild(style);
   };
@@ -57,25 +56,22 @@
         // Check for removed nodes
         if (mutation.removedNodes.length) {
           for (let i = 0; i < mutation.removedNodes.length; i++) {
-            // Check if the 'trailer' node is removed
+            // Check if the 'trailer' node was removed
             if (
               mutation.removedNodes[i] &&
               mutation.removedNodes[i].id === 'trailer'
             ) {
-              // Disconnect the observer if the 'trailer' node is removed
+              // Disconnect the observer when the 'trailer' node was removed
               observer.disconnect();
             }
           }
         }
 
-        // Existing code for added nodes
         if (
           mutation.addedNodes.length > 0 &&
           mutation.addedNodes[0].id === 'trailer'
         ) {
-          const trailerContainerInnerContent =
-            document.getElementById('trailerinner');
-
+          const trailerContainerInnerContent = document.getElementById('trailerinner');
           if (
             trailerContainerInnerContent &&
             trailerContainerInnerContent.childNodes.length > 0
@@ -97,13 +93,10 @@
     }
   };
 
-  // Create an observer instance linked to the callback function
-  const observer = new MutationObserver(callback);
+  const observer = new MutationObserver(callback); // Create an observer instance linked to the callback function
+  observer.observe(targetNode, config); // Start observing the target node for configured mutations
 
-  // Start observing the target node for configured mutations
-  observer.observe(targetNode, config);
-
-  // Sidebar trailer
+  // 'Sidebar' trailer
   const sidebarBoxes = Array.from(document.querySelectorAll('.sidebar .box'));
   const youtubeBox = sidebarBoxes.find((box) => {
     const headElement = box.querySelector('.head');
@@ -111,15 +104,11 @@
   });
 
   if (youtubeBox) {
-    const embedNode = youtubeBox.querySelector(
-      '.nobullet > table > tbody > tr > td > object > embed'
-    );
+    const embedNode = youtubeBox.querySelector('.nobullet > table > tbody > tr > td > object > embed');
     if (embedNode) {
       const trailerURL = embedNode.getAttribute('src');
       const iframeElement = `<iframe width="230" frameBorder="0" src=${trailerURL}></iframe>`;
-      youtubeBox.querySelector(
-        '.nobullet > table > tbody > tr > td'
-      ).innerHTML = iframeElement;
+      youtubeBox.querySelector('.nobullet > table > tbody > tr > td').innerHTML = iframeElement;
     }
   }
 })();
