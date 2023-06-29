@@ -66,8 +66,8 @@
 
   if (youtubeBox) {
     const embedContainer = youtubeBox.querySelector('.nobullet > table > tbody > tr > td');
-    const embedNode = embedContainer.querySelector('object > embed');
-    if (embedNode) {
+    if (embedContainer) {
+      const embedNode = embedContainer.querySelector('object > embed');
       embedContainer.innerHTML = `<iframe width="230" frameBorder="0" src=${embedNode.getAttribute('src')}></iframe>`;
     }
   }
