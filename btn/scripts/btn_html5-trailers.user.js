@@ -2,7 +2,7 @@
 // @name         BTN HTML5 Trailers
 // @namespace    http*://*broadcasthe.net/*
 // @version      0.1
-// @description  Fix BTN's trailers by replacing the flash implementation with the HTML5 (iframe) version
+// @description  Fix BTN's trailers by replacing the old/flash implementation with the HTML5 (iframe)
 // @author       PuNkFuSe
 // @match        https://www.broadcasthe.net/series.php?id=*
 // @icon         https://datfunc.github.io/btn/assets/icons/play-trailer_alt.svg
