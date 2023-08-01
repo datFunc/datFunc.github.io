@@ -1855,7 +1855,7 @@ a.permission_2 {
 
 #menu > ul > li > ul {
   min-width: 180px;
-  display: none;
+  /* display: none; */
   top: 100%;
   left: 0;
   list-style: none;
