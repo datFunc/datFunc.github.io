@@ -18,8 +18,7 @@
   const applyStyling = (styles) => {
     const style = document.createElement('style');
     let styleContent = '';
-    for (let selector in styles)
-      styleContent += `${selector} { ${styles[selector]} }`;
+    for (let selector in styles) styleContent += `${selector} { ${styles[selector]} }`;
     style.innerHTML = styleContent;
     document.head.appendChild(style);
   };
