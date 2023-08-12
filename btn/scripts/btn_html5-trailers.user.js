@@ -28,13 +28,18 @@
 
     applyStyling({
       '#trailer': 'opacity: 1 !important;',
-      '#playbutton': 'opacity: 1; cursor: pointer; transition: 0.3s;',
+      'img[id=banner]': 'transition: 0.3s',
+      '#playbutton': 'opacity: 0.65; cursor: pointer; transition: 0.3s; background: url(https://datfunc.github.io/ptp/assets/icons/play-trailer.svg); width: 110px !important; height: 110px !important; box-sizing: border-box !important; padding-left: 110px !important; background-size: contain !important; margin-top: 7px;',
+      '#series #content > div.thin > center:hover #playbutton': 'transform: scale(0.9); opacity: .75',
+      '#series #content > div.thin > center:hover img[id=banner]': 'opacity: .55',
       '#trailerinner':
         'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);',
     });
   } catch (error) {
     console.error('Error in applyStyling:', error);
   }
+
+
 
   const disconnectObserver = (observer) => {
     console.log('Observer disconnected.');
