@@ -1,4 +1,4 @@
-# Educational Web Development Project
+# Table-based Layouts Restyling Project
 
 ## Disclaimer
 
