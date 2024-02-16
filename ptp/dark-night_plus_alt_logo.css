@@ -540,7 +540,7 @@ body {
 }
 
 .log__message--edited {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .form__label {
@@ -1822,7 +1822,7 @@ textarea {
 select,
 select option,
 select option:first-child {
-  color: #8e8f95;
+  color: #8e8f95 !important;
   padding: 0.3rem;
 }
 
@@ -1842,87 +1842,87 @@ select[name="checked"] ~ input[name="runtime"] {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 /* Validation */
@@ -2437,23 +2437,23 @@ th {
 }
 
 .search-bar__search-field__input::-moz-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__search-field__input:-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__search-field__input::-webkit-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__search-field__input::-ms-input-placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__search-field__input::placeholder {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__search-field,
@@ -2487,7 +2487,7 @@ th {
   top: 0;
   background-color: #0c0b0e;
   font-size: 0.8em;
-  color: #8e8f95;
+  color: #8e8f95 !important;
   border: 1px solid #212325;
   border-radius: 5px;
   padding: 2px 3px;
@@ -2533,7 +2533,7 @@ th {
 
 .search-bar__results__link,
 .search-bar__results__link:hover {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .search-bar__results__list-item--is-highlighted > .search-bar__results__link,
@@ -4181,7 +4181,7 @@ img[src="static/common/flags/vietnam.gif"] {
 }
 
 .forum-post__heading .time {
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .forum-post__heading img,
@@ -4296,7 +4296,7 @@ img[alt="Default avatar"] {
 .forum-post__edited {
   margin-top: 20px;
   font-style: italic;
-  color: #8e8f95;
+  color: #8e8f95 !important;
 }
 
 .forum-post__textarea {
@@ -4879,7 +4879,7 @@ img[src="static/forums/locked_read.png"] {
 
 .user-info-bar__link {
   text-decoration: none;
-  color: #8e8f95;
+  color: #8e8f95 !important;
   transition: all 0.3s;
 }
 
@@ -4890,7 +4890,7 @@ img[src="static/forums/locked_read.png"] {
 
 #nav_more .user-info-bar__link:after {
   content: "\25be";
-  color: #8e8f95;
+  color: #8e8f95 !important;
   padding-left: 0.2rem;
 }
 
@@ -4969,7 +4969,7 @@ img[src="static/forums/locked_read.png"] {
 }
 
 .user-info-bar__item--drop-down-menu-opener a {
-  color: #8e8f95;
+  color: #8e8f95 !important;
   transition: all 0s;
 }
 
@@ -5020,7 +5020,7 @@ img[src="static/forums/locked_read.png"] {
 
 .main-menu__link {
   padding: 0.5em;
-  color: #8e8f95;
+  color: #8e8f95 !important;
   position: relative;
 }
 
