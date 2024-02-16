@@ -4984,7 +4984,7 @@ img[src="static/forums/locked_read.png"] {
 
 .user-info-bar__drop-down-menu__link:hover {
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   background-color: #4281da;
 }
 
