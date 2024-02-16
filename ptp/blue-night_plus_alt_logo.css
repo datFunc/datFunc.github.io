@@ -1835,67 +1835,67 @@ select[name="checked"] ~ input[name="runtime"] {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 /* Validation */
@@ -2409,23 +2409,23 @@ th {
 }
 
 .search-bar__search-field__input::-moz-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 .search-bar__search-field__input:-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 .search-bar__search-field__input::-webkit-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 .search-bar__search-field__input::-ms-input-placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 .search-bar__search-field__input::placeholder {
-  color: #586278;
+  color: #586278 !important;
 }
 
 .search-bar__search-field,
