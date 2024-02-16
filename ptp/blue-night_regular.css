@@ -1898,6 +1898,23 @@ textarea::placeholder {
   color: #586278 !important;
 }
 
+/* Chrome, Edge, and Safari */
+::placeholder {
+  color: #586278 !important;
+  opacity: 1;
+}
+
+/* Firefox */
+::-moz-placeholder {
+  color: #586278 !important;
+  opacity: 1;
+}
+
+/* Internet Explorer lol */
+:-ms-input-placeholder {
+  color: #586278 !important;
+}
+
 /* Validation */
 .bvalidator_errmsg {
   display: none;
