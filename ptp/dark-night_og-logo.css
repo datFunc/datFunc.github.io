@@ -1442,43 +1442,41 @@ img[src*="static/common/symbols/warned.png"] {
 }
 
 /* Rank Icons */
-img[src="static/common/symbols/Rank1.png"] {
+img[src*="static/common/symbols/Rank1.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-1.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank2.png"] {
+img[src*="static/common/symbols/Rank2.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-2.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank3.png"] {
+img[src*="static/common/symbols/Rank3.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-3.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank4.png"] {
+img[src*="static/common/symbols/Rank4.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-4.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank5.png"] {
+img[src*="static/common/symbols/Rank5.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-5.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank6.png"],
 img[src*="static/common/symbols/Rank6.png"] {
   background: url("https://datfunc.github.io/ptp/assets/icons/rank-6.svg")
     no-repeat center center;
 }
 
-img[src="static/common/symbols/Rank1.png"],
-img[src="static/common/symbols/Rank2.png"],
-img[src="static/common/symbols/Rank3.png"],
-img[src="static/common/symbols/Rank4.png"],
-img[src="static/common/symbols/Rank5.png"],
-img[src="static/common/symbols/Rank6.png"],
+img[src*="static/common/symbols/Rank1.png"],
+img[src*="static/common/symbols/Rank2.png"],
+img[src*="static/common/symbols/Rank3.png"],
+img[src*="static/common/symbols/Rank4.png"],
+img[src*="static/common/symbols/Rank5.png"],
 img[src*="static/common/symbols/Rank6.png"] {
   width: 10px;
   height: 10px;
