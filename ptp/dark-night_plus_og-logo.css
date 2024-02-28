@@ -4201,7 +4201,9 @@ img[src="static/common/flags/vietnam.gif"] {
 
 .forum-post__heading img,
 .panel .username + img {
-  margin: 0 2.5px;
+   margin: 0 2.5px;
+   position: relative;
+   top: -2px;
 }
 
 .forum-post__avatar-and-body {
