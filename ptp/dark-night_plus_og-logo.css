@@ -1348,7 +1348,8 @@ img[src*="smileys/sorry.gif"] {
 img[src="static/common/symbols/donor.png"],
 img[src="static/common/symbols/miner.png"],
 img[src*="static/common/symbols/badge_checker.png"],
-img[src*="static/common/symbols/badge_gpchecker.png"] {
+img[src*="static/common/symbols/badge_gpchecker.png"],
+img[src*="static/common/symbols/badge_floppy_bronze.png"] {
   width: 13px;
   height: 13px;
   padding-left: 13px;
@@ -1380,6 +1381,12 @@ img[src="static/common/symbols/filmclub.png"] {
   padding-left: 20px;
   background: url("https://datfunc.github.io/ptp/assets/icons/film-club-icon.svg")
     no-repeat center center;
+}
+
+img[src*="static/common/symbols/badge_floppy_bronze.png"] {
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_floppy_bronze.svg")
+    no-repeat center center;
+  background-size: contain;
 }
 
 img[src="static/common/symbols/encoder.png"],
@@ -2320,10 +2327,6 @@ th {
 #top10 .table tr th,
 #top10 .table tr td {
   text-align: left !important;
-}
-
-#top10 h2[id*="top-header"] {
-  margin: 2rem 2rem -0.5rem;
 }
 
 #forums .form__input tr[style="vertical-align: top;"] {
