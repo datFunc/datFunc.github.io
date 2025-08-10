@@ -1078,6 +1078,11 @@ a[title="Close"]:hover {
     no-repeat;
 }
 
+.js-bbcode-toolbar__staff-button {
+  background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/warning_alt.svg")
+    no-repeat;
+}
+
 a[title="BBCode help"] .bbcode-toolbar__button {
   background: url("https://datfunc.github.io/ptp/assets/icons/toolbar/question.svg")
     no-repeat;
@@ -1102,6 +1107,7 @@ a[title="BBCode help"] .bbcode-toolbar__button {
 .js-bbcode-toolbar__strikethrough-button,
 .js-bbcode-toolbar__underline-button,
 .js-bbcode-toolbar__youtube-button,
+.js-bbcode-toolbar__staff-button,
 a[title="BBCode help"] .bbcode-toolbar__button {
   background-size: contain;
   background-position: center center !important;
@@ -1349,7 +1355,11 @@ img[src="static/common/symbols/donor.png"],
 img[src="static/common/symbols/miner.png"],
 img[src*="static/common/symbols/badge_checker.png"],
 img[src*="static/common/symbols/badge_gpchecker.png"],
-img[src*="static/common/symbols/badge_floppy_bronze.png"] {
+img[src*="static/common/symbols/badge_floppy_base.png"],
+img[src*="static/common/symbols/badge_floppy_silver.png"],
+img[src*="static/common/symbols/badge_floppy_bronze.png"],
+img[src*="static/common/symbols/badge_floppy_gold.png"],
+img[src*="static/common/symbols/badge_floppy_diamond.png"] {
   width: 13px;
   height: 13px;
   padding-left: 13px;
@@ -1383,8 +1393,32 @@ img[src="static/common/symbols/filmclub.png"] {
     no-repeat center center;
 }
 
+img[src*="static/common/symbols/badge_floppy_base.png"] {
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_base.svg")
+    no-repeat center center;
+  background-size: contain;
+}
+
+img[src*="static/common/symbols/badge_floppy_silver.png"] {
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_silver.svg")
+    no-repeat center center;
+  background-size: contain;
+}
+
 img[src*="static/common/symbols/badge_floppy_bronze.png"] {
-  background: url("https://datfunc.github.io/ptp/assets/icons/badge_floppy_bronze.svg")
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_bronze.svg")
+    no-repeat center center;
+  background-size: contain;
+}
+
+img[src*="static/common/symbols/badge_floppy_gold.png"] {
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_gold.svg")
+    no-repeat center center;
+  background-size: contain;
+}
+
+img[src*="static/common/symbols/badge_floppy_diamond.png"] {
+  background: url("https://datfunc.github.io/ptp/assets/icons/badge_diamond.svg")
     no-repeat center center;
   background-size: contain;
 }
